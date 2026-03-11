@@ -9,7 +9,9 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
+	"sync"
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
@@ -81,6 +83,8 @@ const cacheFile = "cache.json"
 const dbFile = "rss.db"
 
 var db *sql.DB
+var refreshMutex sync.Mutex
+var refreshInProgress bool
 
 func main() {
 	// Initialize database
@@ -95,9 +99,10 @@ func main() {
 	// Start background updater
 	go backgroundUpdater()
 
-	// Setup routes
-	fs := http.FileServer(http.Dir("."))
-	http.Handle("/", fs)
+	// Setup routes - only serve specific frontend files
+	http.HandleFunc("/", handleIndex)
+	http.HandleFunc("/app.js", handleStaticFile("app.js", "application/javascript"))
+	http.HandleFunc("/styles.css", handleStaticFile("styles.css", "text/css"))
 	http.HandleFunc("/api/feeds", handleFeeds)
 	http.HandleFunc("/api/cache", handleCache)
 	http.HandleFunc("/api/refresh", handleRefresh)
@@ -105,9 +110,31 @@ func main() {
 	http.HandleFunc("/api/favorites", handleFavorites)
 
 	port := "7007"
-	fmt.Printf("🌐 Server running at http://localhost:%s\n", port)
+	fmt.Printf("🌐 Server running at http://127.0.0.1:%s\n", port)
 	fmt.Println("Press Ctrl+C to stop")
-	log.Fatal(http.ListenAndServe(":"+port, nil))
+	log.Fatal(http.ListenAndServe("127.0.0.1:"+port, nil))
+}
+
+// handleIndex serves the index.html file
+func handleIndex(w http.ResponseWriter, r *http.Request) {
+	if r.URL.Path != "/" {
+		http.NotFound(w, r)
+		return
+	}
+	w.Header().Set("Content-Type", "text/html")
+	http.ServeFile(w, r, "index.html")
+}
+
+// handleStaticFile returns a handler for static files
+func handleStaticFile(filename, contentType string) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodGet {
+			w.WriteHeader(http.StatusMethodNotAllowed)
+			return
+		}
+		w.Header().Set("Content-Type", contentType)
+		http.ServeFile(w, r, filename)
+	}
 }
 
 func initDB() error {
@@ -133,8 +160,11 @@ func initDB() error {
 }
 
 func handleFeeds(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		return
+	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Access-Control-Allow-Origin", "*")
 
 	response := map[string]interface{}{
 		"feeds": feeds,
@@ -145,8 +175,11 @@ func handleFeeds(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleCache(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		return
+	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Access-Control-Allow-Origin", "*")
 
 	cache, err := loadCache()
 	if err != nil {
@@ -162,14 +195,39 @@ func handleCache(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleRefresh(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		return
+	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Access-Control-Allow-Origin", "*")
+
+	// Try to acquire lock
+	refreshMutex.Lock()
+	if refreshInProgress {
+		refreshMutex.Unlock()
+		w.WriteHeader(http.StatusConflict)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"success": false,
+			"message": "Refresh already in progress",
+		})
+		return
+	}
+	refreshInProgress = true
+	refreshMutex.Unlock()
 
 	// Run cache update in background to not block the response
 	go func() {
+		defer func() {
+			refreshMutex.Lock()
+			refreshInProgress = false
+			refreshMutex.Unlock()
+		}()
 		log.Println("🔄 Manual cache refresh triggered...")
-		updateCache()
-		log.Println("✅ Manual cache refresh completed")
+		if err := updateCacheWithError(); err != nil {
+			log.Printf("✗ Manual cache refresh failed: %v\n", err)
+		} else {
+			log.Println("✅ Manual cache refresh completed")
+		}
 	}()
 
 	json.NewEncoder(w).Encode(map[string]interface{}{
@@ -180,14 +238,6 @@ func handleRefresh(w http.ResponseWriter, r *http.Request) {
 
 func handleReadArticles(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
-
-	if r.Method == "OPTIONS" {
-		w.WriteHeader(http.StatusOK)
-		return
-	}
 
 	switch r.Method {
 	case "GET":
@@ -253,14 +303,6 @@ func handleReadArticles(w http.ResponseWriter, r *http.Request) {
 
 func handleFavorites(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
-
-	if r.Method == "OPTIONS" {
-		w.WriteHeader(http.StatusOK)
-		return
-	}
 
 	switch r.Method {
 	case "GET":
@@ -354,13 +396,37 @@ func backgroundUpdater() {
 	defer ticker.Stop()
 
 	for range ticker.C {
+		refreshMutex.Lock()
+		if refreshInProgress {
+			refreshMutex.Unlock()
+			log.Println("⏳ Skipping scheduled refresh - another refresh is in progress")
+			continue
+		}
+		refreshInProgress = true
+		refreshMutex.Unlock()
+
 		log.Println("🔄 Updating cache...")
-		updateCache()
-		log.Println("✅ Cache updated")
+		if err := updateCacheWithError(); err != nil {
+			log.Printf("✗ Cache update failed: %v\n", err)
+		} else {
+			log.Println("✅ Cache updated")
+		}
+
+		refreshMutex.Lock()
+		refreshInProgress = false
+		refreshMutex.Unlock()
 	}
 }
 
+// updateCache calls updateCacheWithError and logs errors
 func updateCache() {
+	if err := updateCacheWithError(); err != nil {
+		log.Printf("Cache update error: %v\n", err)
+	}
+}
+
+// updateCacheWithError performs the actual cache update and returns any error
+func updateCacheWithError() error {
 	cache := Cache{
 		LastFetch: time.Now().Format(time.RFC3339),
 		Feeds:     make(map[string]FeedData),
@@ -391,7 +457,7 @@ func updateCache() {
 		}
 	}
 
-	saveCache(cache)
+	return saveCache(cache)
 }
 
 func fetchFeed(url string) ([]Article, error) {
@@ -538,5 +604,38 @@ func saveCache(cache Cache) error {
 		return err
 	}
 
-	return os.WriteFile(cacheFile, data, 0644)
+	// Create temp file in same directory for atomic write
+	dir := filepath.Dir(cacheFile)
+	if dir == "." {
+		dir = ""
+	}
+	tempFile := filepath.Join(dir, ".cache.json.tmp")
+
+	// Write to temp file
+	if err := os.WriteFile(tempFile, data, 0644); err != nil {
+		return fmt.Errorf("failed to write temp cache file: %w", err)
+	}
+
+	// Open temp file for fsync
+	f, err := os.Open(tempFile)
+	if err != nil {
+		os.Remove(tempFile)
+		return fmt.Errorf("failed to open temp cache file for fsync: %w", err)
+	}
+
+	// Fsync to ensure data is written to disk
+	if err := f.Sync(); err != nil {
+		f.Close()
+		os.Remove(tempFile)
+		return fmt.Errorf("failed to fsync cache file: %w", err)
+	}
+	f.Close()
+
+	// Atomic rename
+	if err := os.Rename(tempFile, cacheFile); err != nil {
+		os.Remove(tempFile)
+		return fmt.Errorf("failed to rename cache file: %w", err)
+	}
+
+	return nil
 }

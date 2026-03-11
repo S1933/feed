@@ -23,13 +23,18 @@ class FeedReader {
 
     async saveReadArticle(articleId) {
         try {
-            await fetch('/api/read', {
+            const response = await fetch('/api/read', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ article_id: articleId })
             });
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP ${response.status}: ${errorText}`);
+            }
         } catch (e) {
             console.error('Error saving read article:', e);
+            throw e;
         }
     }
 
@@ -45,8 +50,12 @@ class FeedReader {
     }
 
     async markAsRead(articleId) {
-        this.readArticles[articleId] = new Date().toISOString();
-        await this.saveReadArticle(articleId);
+        try {
+            await this.saveReadArticle(articleId);
+            this.readArticles[articleId] = new Date().toISOString();
+        } catch (e) {
+            console.error('Failed to mark article as read:', e);
+        }
     }
 
     async markAllAsRead() {
@@ -61,8 +70,12 @@ class FeedReader {
         for (const article of articles) {
             const articleId = this.getArticleId(article);
             if (!this.readArticles[articleId]) {
-                this.readArticles[articleId] = new Date().toISOString();
-                await this.saveReadArticle(articleId);
+                try {
+                    await this.saveReadArticle(articleId);
+                    this.readArticles[articleId] = new Date().toISOString();
+                } catch (e) {
+                    console.error(`Failed to mark article ${articleId} as read:`, e);
+                }
             }
         }
 
@@ -81,8 +94,13 @@ class FeedReader {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ article_id: articleId })
             });
+            if (!res.ok) {
+                const errorText = await res.text();
+                throw new Error(`HTTP ${res.status}: ${errorText}`);
+            }
             const data = await res.json();
 
+            // Only update local state after confirming server success
             if (data.is_favorite) {
                 this.favoriteArticles[articleId] = new Date().toISOString();
             } else {
@@ -314,6 +332,10 @@ class FeedReader {
             refreshBtn.classList.add('spinning');
             refreshBtn.disabled = true;
 
+            // Capture current last_fetch before triggering refresh
+            await this.loadCache();
+            const preRefreshLastFetch = this.cache?.last_fetch;
+
             // Call refresh API
             const res = await fetch('/api/refresh', { method: 'POST' });
             const data = await res.json();
@@ -321,7 +343,7 @@ class FeedReader {
             if (data.success) {
                 // Wait a bit for the server to start fetching, then poll for updates
                 setTimeout(async () => {
-                    await this.pollForUpdates();
+                    await this.pollForUpdates(preRefreshLastFetch);
                 }, 2000);
             } else {
                 throw new Error(data.message || 'Refresh failed');
@@ -334,7 +356,7 @@ class FeedReader {
         }
     }
 
-    async pollForUpdates() {
+    async pollForUpdates(preRefreshLastFetch) {
         const refreshBtn = document.getElementById('refresh-btn');
         let attempts = 0;
         const maxAttempts = 30; // Max 30 attempts (30 seconds)
@@ -346,22 +368,16 @@ class FeedReader {
                 // Reload cache from server
                 await this.loadCache();
 
-                // Check if cache has been updated recently (within last 2 minutes)
-                if (this.cache?.last_fetch) {
-                    const lastFetch = new Date(this.cache.last_fetch);
-                    const now = new Date();
-                    const diffMinutes = (now - lastFetch) / 1000 / 60;
-
-                    if (diffMinutes < 2) {
-                        // Cache was updated!
-                        clearInterval(checkInterval);
-                        this.mergeAllArticles();
-                        this.renderFeedList();
-                        this.renderAllArticles(this.currentFilter);
-                        refreshBtn.classList.remove('spinning');
-                        refreshBtn.disabled = false;
-                        return;
-                    }
+                // Check if last_fetch has changed from the pre-refresh value
+                if (this.cache?.last_fetch && this.cache.last_fetch !== preRefreshLastFetch) {
+                    // Cache was updated!
+                    clearInterval(checkInterval);
+                    this.mergeAllArticles();
+                    this.renderFeedList();
+                    this.renderAllArticles(this.currentFilter);
+                    refreshBtn.classList.remove('spinning');
+                    refreshBtn.disabled = false;
+                    return;
                 }
 
                 if (attempts >= maxAttempts) {
