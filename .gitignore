@@ -1,9 +1,13 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# Go
+*.exe
+*.exe~
+*.dll
 *.so
-.Python
+*.dylib
+*.test
+*.out
+rss-server
+rss-server-*
 
 # Cache files
 cache.json
@@ -11,9 +15,6 @@ cache.json
 
 # Environment
 .env
-.venv
-env/
-venv/
 
 # IDE
 .vscode/
