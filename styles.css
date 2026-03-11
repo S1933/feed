@@ -40,11 +40,55 @@ body {
 .sidebar header {
     padding: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar header h1 {
     font-size: 1.3rem;
     font-weight: 600;
+}
+
+.refresh-btn {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.8);
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.25s ease;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.refresh-btn::before {
+    content: "↻";
+    font-size: 0.9rem;
+}
+
+.refresh-btn:hover {
+    background: rgba(255,255,255,0.15);
+    border-color: rgba(255,255,255,0.4);
+    color: white;
+}
+
+.refresh-btn:active {
+    transform: scale(0.96);
+}
+
+.refresh-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.refresh-btn.spinning::before {
+    display: inline-block;
+    animation: spin 0.8s linear infinite;
 }
 
 .sidebar #feed-list {
@@ -109,6 +153,39 @@ body {
     font-size: 0.85rem;
     color: #8e8e93;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.mark-all-read-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 40px;
+}
+
+.mark-all-read-btn {
+    background: #007aff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3);
+}
+
+.mark-all-read-btn:hover {
+    background: #0051d5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 122, 255, 0.4);
+}
+
+.mark-all-read-btn:active {
+    transform: translateY(0);
+}
+
+.btn-text-short {
+    display: none;
 }
 
 .cache-badge {
@@ -275,6 +352,11 @@ body {
         font-size: 1.1rem;
     }
 
+    .refresh-btn {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
     .sidebar #feed-list {
         flex-direction: row;
         overflow-x: auto;
@@ -307,6 +389,35 @@ body {
     .content {
         margin-left: 0;
         padding: 12px 16px;
+    }
+
+    .status-bar {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 10px 12px;
+    }
+
+    .mark-all-read-container {
+        padding: 16px 0 32px;
+    }
+
+    .mark-all-read-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .btn-text-full {
+        display: none;
+    }
+
+    .btn-text-short {
+        display: inline;
+    }
+
+    .cache-badge {
+        font-size: 0.75rem;
     }
 }
 
@@ -353,6 +464,18 @@ body {
         border-color: #2c2c2e;
     }
 
+    .refresh-btn {
+        background: transparent;
+        border-color: rgba(255,255,255,0.2);
+        color: rgba(255,255,255,0.7);
+    }
+
+    .refresh-btn:hover {
+        background: rgba(255,255,255,0.1);
+        border-color: rgba(255,255,255,0.35);
+        color: white;
+    }
+
     .sidebar .feed-btn {
         color: #8e8e93;
     }
@@ -365,6 +488,16 @@ body {
     .sidebar .feed-btn.active {
         background: #0a84ff;
         color: white;
+    }
+
+    .mark-all-read-btn {
+        background: #0a84ff;
+        box-shadow: 0 2px 8px rgba(10, 132, 255, 0.3);
+    }
+
+    .mark-all-read-btn:hover {
+        background: #0070e0;
+        box-shadow: 0 4px 12px rgba(10, 132, 255, 0.4);
     }
 }
 

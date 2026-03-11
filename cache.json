@@ -1,5 +1,5 @@
 {
-  "last_fetch": "2026-03-11T13:38:12+01:00",
+  "last_fetch": "2026-03-11T20:53:02+01:00",
   "feeds": {
     "http://blogs.aws.amazon.com/application-management/blog/feed/recentPosts.rss": {
       "articles": [
@@ -124,7 +124,7 @@
           "date": "Wed, 19 Nov 2025 19:01:49 +0000"
         }
       ],
-      "last_update": "2026-03-11T13:38:15+01:00",
+      "last_update": "2026-03-11T20:53:09+01:00",
       "status": "ok"
     },
     "http://feeds.feedburner.com/KorbensBlog-UpgradeYourMind": {
@@ -250,7 +250,7 @@
           "date": "Fri, 06 Mar 2026 15:10:00 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:14+01:00",
+      "last_update": "2026-03-11T20:53:08+01:00",
       "status": "ok"
     },
     "http://feeds.feedburner.com/Rue89Bordeaux": {
@@ -340,137 +340,143 @@
           "date": "Tue, 03 Mar 2026 16:36:01 +0000"
         }
       ],
-      "last_update": "2026-03-11T13:38:14+01:00",
+      "last_update": "2026-03-11T20:53:09+01:00",
       "status": "ok"
     },
     "http://www.courrierinternational.com/rss/all/rss.xml": {
       "articles": [
         {
-          "title": "La chute du prix du cacao, un “coup de massue” pour les producteurs africains",
-          "link": "https://www.courrierinternational.com/article/economie-la-chute-du-prix-du-cacao-un-coup-de-massue-pour-les-producteurs-africains_241597",
-          "description": "Après une envolée inédite, le cours du cacao a chuté de près de 70 %. Cette baisse drastique inquiète déjà les principaux pays africains producteurs.",
-          "date": "Wed, 11 Mar 2026 12:53:15 +0100"
+          "title": "Guerre au Moyen-Orient : ce qu’il faut retenir de la journée du mercredi 11 mars",
+          "link": "https://www.courrierinternational.com/article/conflit-guerre-au-moyen-orient-ce-qu-il-faut-retenir-de-la-journee-du-mercredi-11-mars_241642",
+          "description": "Encore une fois, lors de cette journée du mercredi 11 mars, le prix du pétrole et la situation dans le détroit d’Ormuz ont été au centre de l’attention de la presse internationale. Dans le même temps, la situation au Liban se fait de plus en plus grave.",
+          "date": "Wed, 11 Mar 2026 20:20:46 +0100"
         },
         {
-          "title": "Le phénomène des élèves constipés, “une honte pour la société chinoise”",
-          "link": "https://www.courrierinternational.com/article/education-le-phenomene-des-eleves-constipes-une-honte-pour-la-societe-chinoise_231469_1",
-          "description": "Soumises à une concurrence féroce, les écoles chinoises calculent minutieusement l’emploi du temps de leurs élèves. De nombreux lycéens, privés de leur liberté d’aller aux toilettes, sont confrontés à un problème de santé : la constipation. En 2025, des médias chinois comme “Xinjing Bao” dénonçaient une perte de “chaleur humaine” dans ces établissements scolaires.",
-          "date": "Wed, 11 Mar 2026 12:33:42 +0100"
+          "title": "Semaine du 12 au 18 mars 2026",
+          "link": "https://www.courrierinternational.com/horoscope/semaine-du-12-au-18-mars-2026_241179",
+          "description": "Lorsque le temps sera venu d’aller à la rivière, prends le temps d’aller à la rivière.",
+          "date": "Wed, 11 Mar 2026 20:00:13 +0100"
         },
         {
-          "title": "La Calabre tient à garder ses médecins cubains, malgré la pression américaine",
-          "link": "https://www.courrierinternational.com/article/italie-la-calabre-tient-a-garder-ses-medecins-cubains-malgre-la-pression-americaine_241576",
-          "description": "En 2022, pour remédier au manque criant de personnel dans ses hôpitaux, le président de la région de la Calabre a conclu un accord de coopération sanitaire avec Cuba pour employer 321 médecins. L’expérience, réussie, pourrait s’achever du fait de l’ingérence des États-Unis.",
-          "date": "Wed, 11 Mar 2026 12:16:02 +0100"
+          "title": "Guerre des drones : l’Ukraine peut-elle se permettre d’apporter son aide ?",
+          "link": "https://www.courrierinternational.com/article/vu-de-kiev-guerre-des-drones-l-ukraine-peut-elle-se-permettre-d-apporter-son-aide_241636",
+          "description": "Kiev a déjà envoyé du matériel et des experts au Moyen-Orient pour aider plusieurs pays à faire face aux attaques aériennes de l’Iran. Si ce déploiement suscite un certain enthousiasme en Ukraine, il est cependant loin de faire l’unanimité dans le pays en guerre.",
+          "date": "Wed, 11 Mar 2026 19:48:10 +0100"
         },
         {
-          "title": "Milei prononce des discours remplis de vulgarités et d’insultes : une “stratégie rationnelle”",
-          "link": "https://www.courrierinternational.com/article/argentine-milei-prononce-des-discours-remplis-de-vulgarites-et-d-insultes-une-strategie-rationnelle_241590",
-          "description": "Injures et vitupérations sont deux des outils lexicaux préférés du président argentin ultralibéral. Lors de son discours annuel au Congrès, dimanche 1er mars, il a ainsi lancé une insulte toutes les cent secondes, relève le média de fact-checking “Chequeado”.",
-          "date": "Wed, 11 Mar 2026 11:18:06 +0100"
+          "title": "Jeffrey Epstein avait des liens étroits avec de nombreux scientifiques",
+          "link": "https://www.courrierinternational.com/article/etats-unis-jeffrey-epstein-avait-des-liens-etroits-avec-de-nombreux-scientifiques_240363_1",
+          "description": "Les documents rendus publics par la justice américaine révèlent à quel point le criminel sexuel était en relation avec le monde de la recherche, s’entourant d’esprits brillants et finançant leurs travaux.",
+          "date": "Wed, 11 Mar 2026 18:41:39 +0100"
         },
         {
-          "title": "Les îles Fidji font face à “l’épidémie de VIH à la croissance la plus rapide au monde”",
-          "link": "https://www.courrierinternational.com/video/video-les-iles-fidji-font-face-a-l-epidemie-de-vih-a-la-croissance-la-plus-rapide-au-monde_241564",
-          "description": "Dans un reportage publié lundi 9 mars, une équipe de journalistes du “Guardian” met en lumière l’envergure de l’épidémie de VIH au sein de la population des îles Fidji, dans le Pacifique sud. Un désastre sanitaire qui s’explique en partie par le narcotrafic, renforcé par la “stigmatisation culturelle” qui persiste dans l’archipel.",
-          "date": "Wed, 11 Mar 2026 11:06:21 +0100"
+          "title": "Vers un allégement des sanctions contre Moscou ? La presse russe demeure prudente",
+          "link": "https://www.courrierinternational.com/article/economie-vers-un-allegement-des-sanctions-contre-moscou-la-presse-russe-demeure-prudente_241594",
+          "description": "Donald Trump a déclaré lundi 9 mars que son administration envisageait des mesures destinées à enrayer la flambée des prix mondiaux du pétrole. S’il n’a pas clairement mentionné la Russie, un assouplissement des sanctions visant Moscou en fait manifestement partie. La presse russe y voit davantage une démarche conjoncturelle qu’une remise en question du régime de sanctions en lui-même.",
+          "date": "Wed, 11 Mar 2026 18:01:04 +0100"
         },
         {
-          "title": "L’empire financier secret de Mojtaba Khamenei, nouveau guide suprême iranien",
-          "link": "https://www.courrierinternational.com/article/enquete-l-empire-financier-secret-de-mojtaba-khamenei-nouveau-guide-supreme-iranien_240164_1",
-          "description": "À travers des sociétés écrans et des acquisitions immobilières au nom de parties tierces à Londres, Francfort ou Dubaï, le fils de l’ayatollah Ali Khamenei, soumis à des sanctions américaines depuis 2019, a réussi à tisser au fil des ans un vaste réseau d’investissements occultes et lucratifs, révélait “Bloomberg” dans une enquête publiée fin janvier.",
-          "date": "Wed, 11 Mar 2026 10:36:41 +0100"
+          "title": "Chypre en passe de perdre son statut d’île refuge",
+          "link": "https://www.courrierinternational.com/article/guerre-au-moyen-orient-chypre-en-passe-de-perdre-son-statut-d-ile-refuge_241598",
+          "description": "Épargnée jusqu’à présent par les conflits du Moyen-Orient, Chypre passait pour un havre de paix aux yeux de nombreux expatriés venus de Russie, d’Israël ou du Royaume-Uni. Depuis qu’un drone iranien s’est écrasé sur une base britannique dans le sud de l’île, ils ne se sentent plus en sécurité, rapporte le quotidien espagnol “El País”.",
+          "date": "Wed, 11 Mar 2026 17:57:21 +0100"
         },
         {
-          "title": "Au Chili, le président Kast entame son mandat pris en étau entre la Chine et les États-Unis",
-          "link": "https://www.courrierinternational.com/article/politique-au-chili-le-president-kast-entame-son-mandat-pris-en-etau-entre-la-chine-et-les-etats-unis_241569",
-          "description": "Un projet chinois de câble sous-marin entre le Chili et Hong Kong a troublé la transition entre l’actuel président de gauche, Gabriel Boric, et le nouveau président d’extrême droite, José Antonio Kast, qui prend ses fonctions ce mercredi 11 mars.",
-          "date": "Wed, 11 Mar 2026 10:33:03 +0100"
+          "title": "Comment la guerre de Trump en Iran fait écho à celle menée par Poutine en Ukraine",
+          "link": "https://www.courrierinternational.com/article/analyse-comment-la-guerre-de-trump-en-iran-fait-echo-a-celle-menee-par-poutine-en-ukraine_241491",
+          "description": "“Des objectifs changeants, une menace exagérée, une mission ambiguë”, le tout enrobé d’euphémismes. Pour cet ancien correspondant du “New York Times” à Moscou, les similitudes entre la rhétorique et les justifications avancées par l’administration américaine pour frapper l’Iran et celles de la Russie pour motiver son “opération spéciale” en Ukraine sont troublantes.",
+          "date": "Wed, 11 Mar 2026 17:47:19 +0100"
         },
         {
-          "title": "BTS en concert à Séoul : des milliers de policiers et agents de sécurité sont mobilisés",
-          "link": "https://www.courrierinternational.com/article/musique-bts-en-concert-a-seoul-des-milliers-de-policiers-et-agents-de-securite-sont-mobilises_241533",
-          "description": "Les sept membres du boys band sud-coréen avaient été forcés de mettre leur carrière en pause pour effectuer leur service militaire obligatoire. Ils seront de nouveau réunis le 21 mars à l’occasion d’un concert en plein air dans le centre de Séoul. L’événement suscite l’enthousiasme de la presse locale, alors que les autorités se préoccupent surtout de la gestion de la foule.",
-          "date": "Wed, 11 Mar 2026 10:21:16 +0100"
+          "title": "Pourquoi Washington et les pays du Golfe se tournent vers Kiev pour lutter contre les drones Shahed iraniens",
+          "link": "https://www.courrierinternational.com/video/video-pourquoi-washington-et-les-pays-du-golfe-se-tournent-vers-kiev-pour-lutter-contre-les-drones-shahed-iraniens_241632",
+          "description": "En difficulté pour neutraliser les drones Shahed lancés par l’Iran, les États-Unis regardent vers l’Ukraine, qui a appris à contrer ces appareils à moindre coût depuis le début de l’invasion russe. Ce 11 mars, Kiev a annoncé que des experts ukrainiens avaient commencé leur travail au Qatar, aux Émirats arabes unis et en Arabie saoudite.",
+          "date": "Wed, 11 Mar 2026 17:40:03 +0100"
         },
         {
-          "title": "Bodo/Glimt en Ligue des Champions, un conte de fées dont il faut profiter tant qu’on peut",
-          "link": "https://www.courrierinternational.com/article/football-bodo-glimt-en-ligue-des-champions-un-conte-de-fees-dont-il-faut-profiter-tant-qu-on-peut_241322",
-          "description": "Après avoir battu plusieurs grosses équipes européennes, dont l’Inter Milan, le petit club norvégien de Bodo/Glimt est devenu la sensation de cette édition de la Ligue des champions. Il affronte, mercredi 11 mars, le Sporting de Lisbonne en quarts de finale. Mais, anticipe ce chroniqueur sportif britannique, avec les dizaines de millions qu’il va engranger cette année ce Petit Poucet n’en est déjà plus un.",
-          "date": "Wed, 11 Mar 2026 10:06:54 +0100"
+          "title": "L’Europe a-t-elle vraiment “commis une erreur en tournant le dos” au nucléaire ?",
+          "link": "https://www.courrierinternational.com/article/vu-d-allemagne-l-europe-a-t-elle-vraiment-commis-une-erreur-en-tournant-le-dos-au-nucleaire_241602",
+          "description": "La présidente de la Commission européenne, Ursula von der Leyen, s’est engagée, le 10 mars, en faveur de nouveaux investissements dans le nucléaire civil, en assurant que prendre ses distances avec cette source d’énergie avait été “une erreur stratégique”. Des propos très commentés en Allemagne, où toutes les centrales nucléaires sont fermées depuis 2023.",
+          "date": "Wed, 11 Mar 2026 17:39:45 +0100"
         },
         {
-          "title": "Iran : comment le régime tient, et les municipales à Paris vues par la presse étrangère",
-          "link": "https://www.courrierinternational.com/article/a-la-une-du-magazine-iran-comment-le-regime-tient-et-les-municipales-a-paris-vues-par-la-presse-etrangere_241582",
-          "description": "Chaque semaine, “Courrier international” explique ses choix éditoriaux. Dans le magazine en vente le 12 mars, deux dossiers. Le premier est consacré à la guerre en Iran, avec un décryptage de la riposte politique et militaire du régime iranien. La ligne dure semble l’emporter après la nomination du nouveau guide suprême. Autre rendez-vous largement couvert par la presse étrangère : les municipales en France, prélude à la présidentielle de 2027, et notamment la bataille de Paris.",
-          "date": "Wed, 11 Mar 2026 09:40:58 +0100"
+          "title": "“Celeste” : quand une inspectrice des impôts espagnole mène l’enquête sur une star",
+          "link": "https://www.courrierinternational.com/article/sur-arte-celeste-quand-une-inspectrice-des-impots-espagnole-mene-l-enquete-sur-une-star_241605",
+          "description": "Diffusée sur Arte depuis le 6 mars, “Celeste” met en scène l’enquête d’une inspectrice des impôts espagnols sur les finances d’une star latino-américaine. Une série qui a eu beaucoup de succès lors de sa sortie en Espagne, où elle faisait écho à une affaire très médiatisée d’évasion fiscale, relatait alors la presse du pays.",
+          "date": "Wed, 11 Mar 2026 17:36:47 +0100"
         },
         {
-          "title": "Retour sur la mort d’Ali Khamenei, impitoyable gardien d’un régime aveugle",
-          "link": "https://www.courrierinternational.com/article/la-lettre-de-l-educ-retour-sur-la-mort-d-ali-khamenei-impitoyable-gardien-d-un-regime-aveugle_241398",
-          "description": "Vous êtes en terminale ou en première spécialité histoire-géographie, géopolitique et sciences politiques (HGGSP) ? Chaque semaine, Benjamin Daubeuf, professeur agrégé d’histoire-géographie, vous conseille la lecture d’un article d’actualité qui résonne avec votre programme. Ce mercredi, un spécialiste de l’Iran revient sur le rôle qu’a joué l’ayatollah Ali Khamenei, tué par une frappe israélienne le 28 février, dans la survie de la République islamique d’Iran.",
-          "date": "Wed, 11 Mar 2026 07:00:01 +0100"
+          "title": "Trois navires touchés dans le détroit d’Ormuz, l’Iran évoque des “cibles légitimes”",
+          "link": "https://www.courrierinternational.com/article/guerre-trois-navires-touches-dans-le-detroit-d-ormuz-l-iran-evoque-des-cibles-legitimes_241629",
+          "description": "Mercredi 11 mars, trois navires de transport et de commerce ont été pris pour cible dans le détroit d’Ormuz. Depuis le début des hostilités, il y aurait eu dans cette zone 13 attaques au total, vraisemblablement iraniennes.",
+          "date": "Wed, 11 Mar 2026 17:28:07 +0100"
         },
         {
-          "title": "Trump veut empêcher coûte que coûte le minage du détroit d’Ormuz, “dernier atout majeur” de l’Iran",
-          "link": "https://www.courrierinternational.com/article/geopolitique-trump-veut-empecher-coute-que-coute-le-minage-du-detroit-d-ormuz-dernier-atout-majeur-de-l-iran_241591",
-          "description": "Les États-Unis ont détruit mardi 16 bateaux iraniens poseurs de mines près du détroit d’Ormuz, après avoir menacé Téhéran de représailles “sans précédent” en cas de minage de la zone, où transite un cinquième du pétrole mondial. Le contrôle du détroit reste le “dernier atout majeur” de l’Iran dans le conflit, relève la presse internationale.",
-          "date": "Wed, 11 Mar 2026 05:58:19 +0100"
+          "title": "En Afrique de l’Ouest, la guerre en Iran est vue comme la persistance de l’“impérialisme occidental”",
+          "link": "https://www.courrierinternational.com/article/geopolitique-en-afrique-de-l-ouest-la-guerre-en-iran-est-vue-comme-la-persistance-de-l-imperialisme-occidental_241622",
+          "description": "Depuis le déclenchement de la guerre israélo-américaine en Iran, la plupart des pays ouest-africains observent le silence. Mais les opinions publiques, notamment sur les réseaux sociaux, apportent leur soutien à l’Iran, apposant à cette guerre le récit d’une lutte mondiale de l’Occident contre le Sud global.",
+          "date": "Wed, 11 Mar 2026 17:20:42 +0100"
         },
         {
-          "title": "Mort d’Alfredo Bryce Echenique, Suisse, Lula et Royaume-Uni : les informations de la nuit",
-          "link": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-mort-de-bryce-echenique-suisse-lula-et-royaume-uni-les-informations-de-la-nuit_241592",
-          "description": "",
-          "date": "Wed, 11 Mar 2026 05:50:32 +0100"
+          "title": "La presse britannique divisée après l’interdiction d’une manifestation jugée favorable au régime iranien",
+          "link": "https://www.courrierinternational.com/article/royaume-uni-la-presse-britannique-divisee-apres-l-interdiction-d-une-manifestation-jugee-favorable-au-regime-iranien_241618",
+          "description": "Décision rarissime outre-Manche, le gouvernement travailliste a décidé le 11 mars d’interdire un défilé, en l’occurrence contre Israël et en soutien aux Palestiniens. Cette marche annuelle, lancée par Téhéran au lendemain de la révolution islamique de 1979, est considérée par de nombreux médias britanniques comme une marque d’influence du régime iranien. Mais la décision ne fait pas l’unanimité.",
+          "date": "Wed, 11 Mar 2026 17:14:13 +0100"
         },
         {
-          "title": "Sous les bombes, réparateurs et livreurs continuent de faire tourner Téhéran",
-          "link": "https://www.courrierinternational.com/article/reportage-sous-les-bombes-reparateurs-et-livreurs-continuent-de-faire-tourner-teheran_241540",
-          "description": "En dépit des bombardements israélo-américains incessants depuis dix jours, nombre d’habitants de la capitale iranienne n’ont d’autre choix que de vaquer à leurs occupations. Ni par patriotisme ni par altruisme, constate ce journaliste sur place, “mais pour survivre, tout simplement”.",
-          "date": "Wed, 11 Mar 2026 05:00:33 +0100"
+          "title": "En Chine, le succès de l’IA OpenClaw inquiète les autorités",
+          "link": "https://www.courrierinternational.com/article/tech-en-chine-le-succes-de-l-ia-openclaw-inquiete-les-autorites_241633",
+          "description": "La Chine découvre les paradoxes de la nouvelle vague d’intelligence artificielle incarnée par OpenClaw. Alors que l’engouement pour cette technologie ne cesse de croître dans le pays, Pékin a décidé d’en restreindre l’usage.",
+          "date": "Wed, 11 Mar 2026 17:08:58 +0100"
         },
         {
-          "title": "“Orphelin” de Laszlo Nemes : une enfance sans père dans la Hongrie à vif de 1957",
-          "link": "https://www.courrierinternational.com/article/en-salle-orphelin-de-laszlo-nemes-une-enfance-sans-pere-dans-la-hongrie-a-vif-de-1957_241306",
-          "description": "Dans “Orphelin”, en salle ce 11 mars, le Hongrois Laszlo Nemes met en scène un petit garçon juif, Andor. Dans une Budapest dévastée par la répression de la révolte de 1956, il attend désespérément son père, disparu dans les camps d’extermination nazis. Découvrez comment le nouveau film du réalisateur du “Fils de Saul” a été accueilli en Hongrie.",
-          "date": "Wed, 11 Mar 2026 05:00:23 +0100"
+          "title": "L’Iran exporte plus de pétrole que jamais par le détroit d’Ormuz",
+          "link": "https://www.courrierinternational.com/article/guerre-l-iran-exporte-plus-de-petrole-que-jamais-par-le-detroit-d-ormuz_241630",
+          "description": "Le contrôle exercé par la République islamique sur cet axe stratégique du commerce des hydrocarbures permet au régime iranien de poursuivre ses exportations de brut malgré les frappes américaines et israéliennes, affirme “The Wall Street Journal”.",
+          "date": "Wed, 11 Mar 2026 16:56:21 +0100"
         },
         {
-          "title": "L’audiovisuel public, nouvel ennemi de l’extrême droite européenne",
-          "link": "https://www.courrierinternational.com/article/vu-d-espagne-l-audiovisuel-public-nouvel-ennemi-de-l-extreme-droite-europeenne_240983",
-          "description": "Partout en Europe, comme aux États-Unis, les médias publics, qui constituent pourtant “un des piliers essentiels de l’information”, indispensable au débat démocratique, sont devenus “l’ennemi numéro un” des partis réactionnaires, constate le quotidien progressiste espagnol “El País”.",
-          "date": "Wed, 11 Mar 2026 05:00:11 +0100"
+          "title": "La hausse du prix du carburant en France, sujet inflammable au pays des “gilets jaunes”",
+          "link": "https://www.courrierinternational.com/article/vu-de-l-etranger-la-hausse-du-prix-du-carburant-en-france-sujet-inflammable-au-pays-des-gilets-jaunes_241607",
+          "description": "Avec la guerre en Iran, les cours du pétrole se sont envolés, et les consommateurs du monde entier n’échappent pas à l’augmentation des prix à la pompe. Mais en France, pays profondément marqué par la révolte des “gilets jaunes”, chaque hausse des prix du carburant vire au “psychodrame”, constate la presse étrangère.",
+          "date": "Wed, 11 Mar 2026 16:28:39 +0100"
         },
         {
-          "title": "Paris peut-il retrouver ses heures de gloire après les Municipales 2026 ?",
-          "link": "https://www.courrierinternational.com/article/vu-du-royaume-uni-paris-peut-il-retrouver-ses-heures-de-gloire-avec-la-prochaine-equipe-a-l-hotel-de-ville_239894",
-          "description": "MUNICIPALES 2026. La capitale française pourrait-elle redevenir le centre culturel et démographique qu’elle a été pendant les Années folles ? C’est la question que se pose ce journaliste britannique en sortant d’une exposition sur cette période.",
-          "date": "Wed, 11 Mar 2026 05:00:05 +0100"
+          "title": "À Lyon, les élections municipales 2026 mettent l’héritage vert sous pression",
+          "link": "https://www.courrierinternational.com/article/vu-de-l-etranger-a-lyon-les-elections-municipales-2026-mettent-l-heritage-vert-sous-pression_241554",
+          "description": "Entre le bilan parfois contesté du maire sortant, Grégory Doucet, et une fin de campagne marquée par la mort du militant d’extrême droite Quentin Deranque, le scrutin s’annonce sous tension à Lyon. Et la “vague verte” reflue devant Jean-Michel Aulas, ancien président historique de l’Olympique lyonnais, constate la presse internationale.",
+          "date": "Wed, 11 Mar 2026 16:08:43 +0100"
         },
         {
-          "title": "Guerre au Moyen-Orient : ce qu’il faut retenir de la journée du mardi 10 mars",
-          "link": "https://www.courrierinternational.com/article/recapitulatif-guerre-au-moyen-orient-ce-qu-il-faut-retenir-de-la-journee-du-mardi-10-mars_241583",
-          "description": "Des Iraniens décrivent des bombardements parmi les pires vécus jusqu’ici. Des centaines de milliers de Libanais seraient déplacés. Pendant ce temps, le choc pétrolier, qui profite à la Russie, s’atténue.",
-          "date": "Tue, 10 Mar 2026 20:05:18 +0100"
+          "title": "Trump va-t-il sonner la fin de la guerre en Iran et forcer la main à Israël ?",
+          "link": "https://www.courrierinternational.com/article/analyse-trump-va-t-il-sonner-la-fin-de-la-guerre-en-iran-et-forcer-la-main-a-israel_241601",
+          "description": "Alors que le coût des opérations militaires et de la riposte iranienne ne cesse d’augmenter, les États-Unis pourraient chercher une porte de sortie contre l’avis de Benyamin Nétanyahou. Les divergences d’intérêts et de vues se font plus évidentes entre les deux alliés, voire au sein même des autorités israéliennes.",
+          "date": "Wed, 11 Mar 2026 15:45:11 +0100"
         },
         {
-          "title": "Les villes que le Rassemblement national espère faire basculer lors des municipales 2026",
-          "link": "https://www.courrierinternational.com/article/vu-de-l-etranger-quelles-villes-peuvent-basculer-a-l-extreme-droite-lors-des-municipales_241539",
-          "description": "Si le RN a obtenu des scores élevés lors des derniers scrutins nationaux, ses résultats sont d’ordinaire beaucoup moins bons lors des élections municipales. Mais cette fois-ci, le parti pourrait bien remporter plusieurs grandes villes, analyse la presse étrangère.",
-          "date": "Tue, 10 Mar 2026 19:41:27 +0100"
+          "title": "Les Farc perdent la bataille des urnes et disparaissent du Congrès colombien",
+          "link": "https://www.courrierinternational.com/article/politique-les-farc-perdent-la-bataille-des-urnes-et-disparaissent-du-congres-colombien_241593",
+          "description": "Faute d’avoir atteint les 3 % de voix nécessaires à sa survie, le parti des ex-guérilleros, à présent réunis sous la bannière de Comunes, disparaît du paysage politique colombien. Une défaite qui fait tache, huit ans après l’accord historique de 2016.",
+          "date": "Wed, 11 Mar 2026 15:36:28 +0100"
         },
         {
-          "title": "Pete Hegseth parachève sa mue en “ministre de la Guerre” de Trump",
-          "link": "https://www.courrierinternational.com/article/etats-unis-pete-hegseth-paracheve-sa-mue-en-ministre-de-la-guerre-de-trump_241570",
-          "description": "À la faveur de l’opération Fureur épique en Iran, le chef du Pentagone s’est mué en un tonitruant chef de guerre, soulignent les médias anglo-saxons. Et il ne manque pas une occasion de marteler la supériorité de l’armée américaine, prête à tout pour écraser ses ennemis.",
-          "date": "Tue, 10 Mar 2026 18:47:41 +0100"
+          "title": "Un humain sur trois est désormais exposé à la chaleur extrême",
+          "link": "https://www.courrierinternational.com/article/climat-un-humain-sur-trois-est-desormais-expose-a-la-chaleur-extreme_241610",
+          "description": "Depuis les années 1950, le réchauffement de la planète a multiplié par deux le nombre d’heures pendant lesquelles des millions de personnes ne peuvent plus pratiquer des activités quotidiennes en toute sécurité.",
+          "date": "Wed, 11 Mar 2026 15:35:12 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:12+01:00",
+      "last_update": "2026-03-11T20:53:02+01:00",
       "status": "ok"
     },
     "http://www.francetvinfo.fr/sciences.rss": {
       "articles": [
+        {
+          "title": "À quoi servaient les immenses \"narines\" du tricératops ?",
+          "link": "https://www.franceinfo.fr/replay-radio/le-billet-sciences-du-week-end/a-quoi-servaient-les-immenses-narines-du-triceratops_7807328.html#xtor=RSS-3-%5Bgeneral%5D",
+          "description": "Dans une étude publiée cette semaine, des chercheurs japonais de l’université de Tokyo ont reconstitué le nez du tricératops. Et ce nez est très spécial.",
+          "date": "Wed, 11 Mar 2026 15:04:57 +0100"
+        },
         {
           "title": "Bruit, smartphones... Le temps de sommeil des Français ne cesse de baisser",
           "link": "https://www.franceinfo.fr/replay-radio/le-billet-vert/bruit-smartphones-le-temps-de-sommeil-des-francais-ne-cesse-de-baisser_7860050.html#xtor=RSS-3-%5Bgeneral%5D",
@@ -584,15 +590,9 @@
           "link": "https://www.franceinfo.fr/replay-magazine/france-2/13h15/13h15-le-dimanche-des-femmes-dans-l-espace-episode-1_7832027.html#xtor=RSS-3-%5Bgeneral%5D",
           "description": "Le magazine retrace le difficile parcours des femmes qui ont marqué l'histoire de la conquête de l'espace. Aujourd'hui, si les équipages sont mixtes, l'aventure spatiale est encore loin d'atteindre la parité...",
           "date": "Fri, 27 Feb 2026 11:30:21 +0100"
-        },
-        {
-          "title": "\"Sur le terrain\" du 26 février 2026” : Interview exclusive de Sophie Adenot depuis l'ISS",
-          "link": "https://www.franceinfo.fr/replay-magazine/franceinfo/sur-le-terrain/sur-le-terrain-du-26-fevrier-2026-interview-exclusive-de-sophie-adenot-depuis-l-iss_7833227.html#xtor=RSS-3-%5Bgeneral%5D",
-          "description": "Loïc de la Mornais s’intéresse dans cette première partie au terrain des étoiles, en nous emmenant dans l’espace pour une rencontre exceptionnelle. Notre astronaute française Sophie Adenot passe son 13e jour en orbite à bord de la Station spatiale internationale. Elle a accordé ce 26 février sa toute première interview télévisée, en exclusivité pour France Télévisions : elle nous racontera sa découverte de la station, ses premiers instants et ses premières sensations en apesanteur. Nous évoquerons aussi les enjeux géopolitiques du spatial, avec sur notre plateau un autre invité exceptionnel, Michel Tognini, ancien astronaute français et double vétéran de missions russes et américaines. Décryptage dans une séquence à retrouver dans l’émission « Sur le terrain » diffusée entre 21h et 23h sur la chaîne info, canal 16.",
-          "date": "Fri, 27 Feb 2026 06:33:28 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:12+01:00",
+      "last_update": "2026-03-11T20:53:08+01:00",
       "status": "ok"
     },
     "http://www.lefigaro.fr/rss/figaro_sciences.xml": {
@@ -718,7 +718,7 @@
           "date": "Thu, 26 Feb 2026 16:25:33 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:15+01:00",
+      "last_update": "2026-03-11T20:53:09+01:00",
       "status": "ok"
     },
     "http://www.lemonde.fr/intelligence-artificielle/rss_full.xml": {
@@ -844,7 +844,7 @@
           "date": "Sat, 28 Feb 2026 19:00:07 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:14+01:00",
+      "last_update": "2026-03-11T20:53:08+01:00",
       "status": "ok"
     },
     "http://www.lemonde.fr/rss/tag/sciences.xml": {
@@ -970,133 +970,259 @@
           "date": "Tue, 03 Mar 2026 17:00:02 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:14+01:00",
+      "last_update": "2026-03-11T20:53:09+01:00",
       "status": "ok"
     },
     "http://www.sudouest.fr/gironde/bordeaux/rss.xml": {
       "articles": [
         {
-          "title": "Quand Claude François venait à Bordeaux : « le strass et le stress »",
-          "link": "https://www.sudouest.fr/gironde/bordeaux/quand-claude-francois-venait-a-bordeaux-le-strass-et-le-stress-28216520.php",
-          "description": "DANS LES ARCHIVES - L’artiste phare de la variété française des années 1960 et 1970 mourait le 11 mars 1978 à l’âge de 39 ans. L’occasion d’un retour sur les passages bordelais du chanteur avec l’article",
-          "date": "Wed, 11 Mar 2026 13:00:00 +0100"
+          "title": "Danse en Gironde : le Junior Ballet de l’Opéra de Paris présente les talents de demain au Pin Galant",
+          "link": "https://www.sudouest.fr/culture/sortir-a-bordeaux/danse-en-gironde-le-junior-ballet-de-l-opera-de-paris-presente-les-talents-de-demain-au-pin-galant-28218196.php",
+          "description": "Samedi 14 mars, la salle de Mérignac accueille la toute nouvelle compagnie de l’Opéra de Paris, conçue comme un marchepied vers la professionnalisation pour de jeunes danseurs prometteurs. Au programme,",
+          "date": "Wed, 11 Mar 2026 20:17:00 +0100"
         },
         {
-          "title": "Rock School Barbey : Arma Jackson et Peet, deux visages du rap francophone à découvrir à Bordeaux",
-          "link": "https://www.sudouest.fr/culture/musique/rap/rock-school-barbey-arma-jackson-et-peet-deux-visages-du-rap-francophone-a-decouvrir-a-bordeaux-28216423.php",
-          "description": "La Rock School Barbey de Bordeaux accueille cette semaine Arma Jackson, figure montante du RNB, et Peet, rappeur bruxellois à l’univers poétique et humoristique",
-          "date": "Wed, 11 Mar 2026 12:40:00 +0100"
+          "title": "Municipales à Bordeaux : « Quand on connaît leurs désaccords… » La droite ironise sur le soutien d’Alain Rousset à l’écologiste Pierre Hurmic",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/bordeaux/municipales-a-bordeaux-quand-on-connait-leurs-desaccords-la-droite-ironise-sur-le-soutien-d-alain-rousset-a-l-ecologiste-pierre-hurmic-28230914.php",
+          "description": "Dans un communiqué, la droite ironise sur le soutien du président très « pro business » de la Région au maire écologiste de Bordeaux, pourtant opposés sur la LGV",
+          "date": "Wed, 11 Mar 2026 20:00:00 +0100"
         },
         {
-          "title": "Judo Pro league : à Nice, une marche encore un peu trop haute pour le Stade Bordelais",
-          "link": "https://www.sudouest.fr/sport/judo/judo-pro-league-a-nice-une-marche-encore-un-peu-trop-haute-pour-le-stade-bordelais-28227007.php",
-          "description": "Chez les hommes, Noël et Tapia et chez les femmes Haymé ont apporté les trois points bordelais de ce quart de finale (7-3). Trop peu pour prendre des mains des Niçois le ticket pour le Final four",
-          "date": "Wed, 11 Mar 2026 10:49:42 +0100"
+          "title": "Dégradations de publicités géantes à Bordeaux : les militants écologistes relaxés dans quatre faits sur six",
+          "link": "https://www.sudouest.fr/faits-divers/degradations-de-publicites-geantes-a-bordeaux-les-militants-ecologistes-relaxes-dans-cinq-faits-sur-six-28230198.php",
+          "description": "Ils ont été condamnés pour avoir éborgné Brad Pitt. Leur peine : des travaux d’intérêt général et un faible préjudice à rembourser",
+          "date": "Wed, 11 Mar 2026 19:50:00 +0100"
         },
         {
-          "title": "Municipales 2026 à Villenave-d’Ornon : un ancien maire, une défection de la majorité, qui compose la liste de Guillaume Latrille ?",
-          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-a-villenave-d-ornon-un-ancien-maire-une-defection-de-la-majorite-qui-compose-la-liste-de-guillaume-latrille-28173117.php",
-          "description": "La liste de Guillaume Latrille fait la part belle à la jeunesse et aux personnes éloignées de la politique. Soutenu par LFI, le candidat de Villenave-d’Ornon à l’élection municipale se revendique « au-delà",
-          "date": "Wed, 11 Mar 2026 10:09:46 +0100"
+          "title": "Municipales 2026 à Saint-Émilion : quel équilibre entre habitat et tourisme, les candidats répondent",
+          "link": "https://www.sudouest.fr/gironde/saint-emilion/municipales-2026-a-saint-emilion-quel-equilibre-entre-habitat-et-tourisme-les-candidats-repondent-28233169.php",
+          "description": "La pression touristique ne simplifie pas la résidence « à l’année » dans le village. Le débat s’organise entre la liste du maire sortant Bernard Lauret, et celle menée par Madina Querre et Franck Jouenne,",
+          "date": "Wed, 11 Mar 2026 19:30:48 +0100"
         },
         {
-          "title": "Bruges : un véhicule prend feu, l’incendie se propage à la maison",
-          "link": "https://www.sudouest.fr/faits-divers/bruges-un-vehicule-prend-feu-l-incendie-se-propage-a-la-maison-28225813.php",
-          "description": "Les flammes ont endommagé une partie de l’habitation et détruit plusieurs véhicules",
-          "date": "Wed, 11 Mar 2026 08:58:13 +0100"
+          "title": "Bordeaux : le label Bâbord lance son émission en public mêlant musique et débats",
+          "link": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-le-label-babord-lance-son-emission-en-public-melant-musique-et-debats-28227974.php",
+          "description": "Le 20 mars, Bâbord lance à la MAC3 sa nouvelle émission en public. Un format inédit mêlant débats et concerts sur la place des femmes sur scène",
+          "date": "Wed, 11 Mar 2026 19:30:00 +0100"
         },
         {
-          "title": "Accident sur la RN 10 en Gironde : un camion et trois voitures impliqués, la circulation a été très perturbée",
-          "link": "https://www.sudouest.fr/economie/transports/circulation/gironde-un-accident-sur-la-n10-provoque-de-gros-embouteillages-28225690.php",
-          "description": "Un accident s’est produit aux alentours de 7 h 30 ce matin du mercredi 11 mars à hauteur de Cavignac. La circulation a été très fortement perturbée pendant plus d’une heure",
-          "date": "Wed, 11 Mar 2026 08:25:59 +0100"
+          "title": "Municipales 2026 à Bordeaux : sur le plateau d’Ici Aquitaine, les candidats campent sur leurs positions",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/bordeaux/municipales-2026-a-bordeaux-sur-le-plateau-d-ici-aquitaine-les-candidats-campent-sur-leurs-positions-28232527.php",
+          "description": "Interrogés sur les thèmes de la sécurité, de l’attractivité ou de la mobilité, les principaux candidats ont martelé leurs arguments sur le plateau d’Ici Aquitaine, ce mercredi",
+          "date": "Wed, 11 Mar 2026 19:16:00 +0100"
         },
         {
-          "title": "Littérature à Bordeaux : deux rencontres ces 12 et 14 mars à la librairie du Passeur",
-          "link": "https://www.sudouest.fr/gironde/bordeaux/litterature-a-bordeaux-deux-rencontres-ces-12-et-14-mars-a-la-librairie-du-passeur-28203700.php",
-          "description": "L’enseigne de la rive droite propose deux rendez-vous cette semaine, entre polars, récit jeunesse et BD",
-          "date": "Wed, 11 Mar 2026 08:00:00 +0100"
+          "title": "Municipales à La Réole : deux visions s’affrontent dans un match qui dépasse la ville",
+          "link": "https://www.sudouest.fr/gironde/la-reole/municipales-a-la-reole-deux-visions-s-affrontent-dans-un-match-qui-depasse-la-ville-28217297.php",
+          "description": "Le maire sortant Bruno Marty (Place publique) affronte le RN Rémy Berthonneau dans un duel qui oppose forcément deux visions de la ville, mais met aussi en lumière des enjeux qui dépassent largement le",
+          "date": "Wed, 11 Mar 2026 19:00:00 +0100"
         },
         {
-          "title": "En Gironde, la commune de Bègles cherche toujours son centre-ville… depuis des décennies",
-          "link": "https://www.sudouest.fr/gironde/begles/en-gironde-la-commune-de-begles-cherche-toujours-son-centre-ville-depuis-des-decennies-28205654.php",
-          "description": "Voisine de Bordeaux, la ville de 32 000 habitants ne dispose pas d’un véritable espace unique pouvant faire office de point de ralliement quotidien pour sa population. Les candidats aux élections municipales",
-          "date": "Wed, 11 Mar 2026 07:30:00 +0100"
+          "title": "Vins de Bordeaux : à Cadillac, les premières côtes ouvrent le bal des primeurs",
+          "link": "https://www.sudouest.fr/vin/vins-de-bordeaux-a-cadillac-les-premieres-cotes-ouvrent-le-bal-des-primeurs-28233990.php",
+          "description": "La région viticole aux huit appellations et 145 vignerons a lancé ce mercredi 11 mars sa grande dégustation annuelle à destination d’acheteurs ou de ses producteurs",
+          "date": "Wed, 11 Mar 2026 18:59:51 +0100"
         },
         {
-          "title": "Municipales 2026 en Gironde : à Talence, la candidate écologiste Isabelle Rami porte plainte",
-          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-en-gironde-a-talence-la-candidate-ecologiste-isabelle-rami-porte-plainte-28223467.php",
-          "description": "La tête de liste de Vivons Talence a constaté des inscriptions à caractère raciste et insultant sur deux panneaux officiels de campagne",
-          "date": "Wed, 11 Mar 2026 07:21:00 +0100"
+          "title": "Municipales 2026 à Bordeaux : transports, énergie, services publics… Les propositions de Pierre Hurmic pour le pouvoir d’achat",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/bordeaux/municipales-2026-a-bordeaux-transports-energie-services-publics-les-propositions-de-pierre-hurmic-pour-le-pouvoir-d-achat-28234474.php",
+          "description": "Le candidat écologiste a annoncé plusieurs mesures pour faire baisser les « dépenses du quotidien », sur lesquelles il estime que le maire peut agir",
+          "date": "Wed, 11 Mar 2026 18:55:08 +0100"
         },
         {
-          "title": "Les gendarmes de Gironde organisent des stages de perfectionnement pour les motards",
-          "link": "https://www.sudouest.fr/societe/securite-routiere/les-gendarmes-de-gironde-organisent-des-stages-de-perfectionnement-pour-les-motards-28213656.php",
-          "description": "Les militaires prévoient des demi-journées pour améliorer la conduite des pilotes. Il suffit de s’inscrire",
-          "date": "Wed, 11 Mar 2026 07:15:00 +0100"
+          "title": "Municipales 2026 à Saint-Médard-en-Jalles : Marie-Odile Picard tente de se frayer un chemin à l’écart des partis politiques",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-a-saint-medard-en-jalles-marie-odile-picard-tente-de-se-frayer-un-chemin-a-l-ecart-des-partis-politiques-28207454.php",
+          "description": "Séparée du groupe de Jacques Mangon depuis 2023, la « candidate de proximité » Marie-Odile Picard espère tirer son épingle du jeu à la tête de la liste Nouvel élan pour Saint-Médard",
+          "date": "Wed, 11 Mar 2026 18:35:00 +0100"
         },
         {
-          "title": "Municipales 2026 à Saint-Jean-d’Illac : « Le temps de la réalisation est venu », dans la ville qui se cherche toujours un centre",
-          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-a-saint-jean-d-illac-la-ville-qui-se-cherche-toujours-un-centre-et-ou-personne-n-appuie-sur-l-etiquette-politique-28200714.php",
-          "description": "Sur un territoire réputé favorable à la droite, le maire divers gauche et société civile Édouard Quintano prétend à un second mandat. Face à lui, deux listes également « sans étiquette » mais portées par",
-          "date": "Wed, 11 Mar 2026 07:00:00 +0100"
+          "title": "Tempête Nils en Sud-Gironde : 420 arbres tronçonnés, 484 km de voirie sécurisés, encore « plusieurs semaines d’interventions »... le Bazadais fait les comptes",
+          "link": "https://www.sudouest.fr/gironde/bazas/tempete-nils-en-sud-gironde-420-arbres-tronconnes-484-km-de-voirie-securises-encore-plusieurs-semaines-d-interventions-le-bazadais-fait-les-comptes-28217643.php",
+          "description": "La Communauté de communes du Bazadais a dû sécuriser et remettre en état 435 kilomètres de voirie communautaire après le passage de la tempête, le 12 février. Les travaux devraient durer encore « plusieurs",
+          "date": "Wed, 11 Mar 2026 18:30:00 +0100"
         },
         {
-          "title": "Municipales 2026 à Bordeaux : 27 000 nouveaux inscrits en six ans, la petite bombe statistique des listes électorales",
-          "link": "https://www.sudouest.fr/elections/municipales/gironde/bordeaux/municipales-2026-a-bordeaux-27-000-nouveaux-inscrits-en-six-ans-la-petite-bombe-statistique-des-listes-electorales-28221656.php",
-          "description": "À Bordeaux, l’explosion du nombre d’inscrits sur les listes électorales pourrait bouleverser le scrutin. Quel candidat réussira à séduire ces nouveaux votants et notamment les jeunes, particulièrement",
-          "date": "Wed, 11 Mar 2026 06:30:00 +0100"
+          "title": "Municipales en Gironde : à Tabanac, l’élu sortant Benoît de Guigné prône la gouvernance partagée",
+          "link": "https://www.sudouest.fr/gironde/tabanac/municipales-en-gironde-a-tabanac-l-elu-sortant-benoit-de-guigne-prone-la-gouvernance-partagee-28219094.php",
+          "description": "Le conseiller municipal dévolu aux finances veut améliorer la concertation, les réseaux d’eau, les mobilités ou encore l’animation de la commune de 1 100 habitants",
+          "date": "Wed, 11 Mar 2026 18:30:00 +0100"
         },
         {
-          "title": "Municipales : « je suis content d’avoir participé à la vie de ma ville », Guy Accoceberry raconte son expérience à la mairie de Bordeaux",
-          "link": "https://www.sudouest.fr/elections/municipales/municipales-je-suis-content-d-avoir-participe-a-la-vie-de-ma-ville-guy-accoceberry-raconte-son-experience-a-la-mairie-de-bordeaux-28216124.php",
-          "description": "L’ancien demi de mêlée revient sur ses douze années passées à la mairie de Bordeaux, en tant que conseiller municipal délégué au sport",
-          "date": "Wed, 11 Mar 2026 06:13:00 +0100"
+          "title": "Bordeaux : P.R2B et Cambrure pour une soirée « Presque punk »",
+          "link": "https://www.sudouest.fr/culture/sortir-a-bordeaux/bordeaux-p-r2b-et-cambrure-pour-une-soiree-presque-punk-28229181.php",
+          "description": "L’artiste P.R2B fait son retour à Bordeaux avec « Presque punk ». Une pop électro libératrice et douce",
+          "date": "Wed, 11 Mar 2026 18:30:00 +0100"
         },
         {
-          "title": "La météo à Bordeaux du mercredi 11 mars 2026",
-          "link": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-meteo-du-mercredi-11-mars-2026-28225296.php",
-          "description": "Aujourd'hui, quelques averses sporadiques feront leur apparition.",
-          "date": "Wed, 11 Mar 2026 06:00:09 +0100"
+          "title": "Municipales 2026 à Saint-Médard-en-Jalles : la liste Nouvel élan pour Saint-Médard dans les starting-blocks",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-a-saint-medard-en-jalles-la-liste-nouvel-elan-pour-saint-medard-dans-les-starting-blocks-28162565.php",
+          "description": "Voici la liste complète présentée par Marie-Odile Picard, conseillère municipale d’opposition",
+          "date": "Wed, 11 Mar 2026 18:30:00 +0100"
         },
         {
-          "title": "VIDEOS. Municipales 2026 : Bordeaux, Bayonne, Mont-de-Marsan… Revivez les débats « Sud Ouest » entre les candidats",
-          "link": "https://www.sudouest.fr/elections/municipales/videos-municipales-2026-bordeaux-bayonne-mont-de-marsan-revivez-les-debats-sud-ouest-entre-les-candidats-28216908.php",
-          "description": "Agen",
-          "date": "Wed, 11 Mar 2026 06:00:00 +0100"
+          "title": "Le Récap Gironde : les 5 infos à retenir ce mercredi 11 mars",
+          "link": "https://www.sudouest.fr/redaction/rendez-vous-sud-ouest/le-recap-gironde-les-5-infos-a-retenir-ce-mercredi-11-mars-28233360.php",
+          "description": "",
+          "date": "Wed, 11 Mar 2026 17:30:08 +0100"
         },
         {
-          "title": "Bordeaux : interpellé après une dizaine de cambriolages de sociétés",
-          "link": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-interpelle-apres-une-dizaine-de-cambriolages-de-societes-28222653.php",
-          "description": "Le malfaiteur a été interpellé, dimanche 8 mars, à 5 heures du matin, alors qu’il cambriolait la société Hydralians, à Bordeaux-Lac",
-          "date": "Wed, 11 Mar 2026 06:00:00 +0100"
+          "title": "Accident du travail mortel en Gironde : la condamnation de Safran annulée en cassation",
+          "link": "https://www.sudouest.fr/faits-divers/accident-du-travail-mortel-en-gironde-la-condamnation-de-safran-annulee-en-cassation-28233037.php",
+          "description": "Le groupe aéronautique a obtenu gain de cause mardi 10 mars devant la Cour de cassation, laquelle a ordonné que l’affaire soit rejugée, au grand dam des parties civiles. En 2013, un incendie dans la poudrerie",
+          "date": "Wed, 11 Mar 2026 17:17:44 +0100"
         },
         {
-          "title": "Gironde : à Mérignac, Dassault dévoile sa nouvelle superstar, le Falcon 10X",
-          "link": "https://www.sudouest.fr/votre-region/gironde-a-merignac-dassault-devoile-sa-nouvelle-superstar-le-falcon-10x-28222334.php",
-          "description": "Ce mardi soir, dans ses ateliers de Mérignac, Dassault a présenté le dernier-né de ses avions d’affaires : un jet aux dimensions XXL capable de voler plus de 13 000 km sans escale",
-          "date": "Tue, 10 Mar 2026 21:33:47 +0100"
+          "title": "Municipales en Gironde : à Saint-Loubès, François Spagnol au cœur de la triangulaire",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-en-gironde-a-saint-loubes-francois-spagnol-au-coeur-de-la-triangulaire-28226356.php",
+          "description": "Investi par le Parti socialiste à la tête d’une liste au large spectre (du PCF à LR), l’élu d’opposition tenait une réunion publique ce mardi 10 mars à la Coupole",
+          "date": "Wed, 11 Mar 2026 16:28:15 +0100"
         },
         {
-          "title": "Municipales 2026 à Lacanau : entre érosion et front de mer, les candidats débattent de l’avenir de la station",
-          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-a-lacanau/municipales-2026-a-lacanau-entre-erosion-et-front-de-mer-les-candidats-debattent-de-l-avenir-de-la-station-28220832.php",
-          "description": "Invités sur le plateau de TV7 – « Sud Ouest » à Bordeaux, ce mardi 10 mars, Laurent Peyrondet, Rodolphe India et Benoît Berque ont confronté leurs positions. Entre protection du littoral et aménagement",
-          "date": "Tue, 10 Mar 2026 21:09:30 +0100"
+          "title": "Trois concerts à découvrir cette semaine à Bordeaux et en Gironde",
+          "link": "https://www.sudouest.fr/gironde/cenon/trois-concerts-a-decouvrir-cette-semaine-a-bordeaux-et-en-gironde-28203773.php",
+          "description": "Musset et Chopin à Andernos, les compositrices du Grand Siècle à Cenon, Bordeaux et Talence, et les violoncelles à Bordeaux : revue de concerts en Gironde",
+          "date": "Wed, 11 Mar 2026 16:12:46 +0100"
         },
         {
-          "title": "Festival Bordeaux Rock : 45 groupes en quatre soirs, du Portugal à la Lettonie via la Gironde",
-          "link": "https://www.sudouest.fr/culture/sortir-a-bordeaux/festival-bordeaux-rock-45-groupes-en-quatre-soirs-du-portugal-a-la-lettonie-via-la-gironde-28153228.php",
-          "description": "La 22e édition du festival Bordeaux Rock a lieu du mercredi 11 au samedi 14 mars avec pour têtes d’affiche Marlon Magnée (La Femme), Ana Lua Caiano et Domenique Dumont, tous applaudis aux dernières Transmusicales…",
-          "date": "Tue, 10 Mar 2026 20:00:00 +0100"
+          "title": "Musique de chambre à Bordeaux : Mozart et Schumann rassemblent les générations de musiciens",
+          "link": "https://www.sudouest.fr/gironde/bordeaux/musique-de-chambre-a-bordeaux-mozart-et-schumann-rassemblent-les-generations-de-musiciens-28186010.php",
+          "description": "L’Opéra de Bordeaux propose un programme de musique de chambre avec Elena Bashkirova, Michael Barenboim, Gérard Caussé, Astrig Siranossian et Bilal Alnemr",
+          "date": "Wed, 11 Mar 2026 15:01:27 +0100"
         },
         {
-          "title": "Ils livraient cannabis et cocaïne dans les prisons du Sud-Ouest : cinq membres d’un trafic par drone condamnés",
-          "link": "https://www.sudouest.fr/gironde/bordeaux/ils-livraient-cannabis-et-cocaine-dans-les-prisons-du-sud-ouest-cinq-membres-d-un-trafic-par-drone-condamnes-28218605.php",
-          "description": "Un détenu avait organisé un réseau de livraison de drogue depuis sa cellule. Une affaire qui illustre la difficulté de la lutte contre les drones en prison",
-          "date": "Tue, 10 Mar 2026 19:51:37 +0100"
+          "title": "Municipales 2026 à Eysines : présentation de la liste soutenue par le RN",
+          "link": "https://www.sudouest.fr/elections/municipales/gironde/municipales-2026-a-eysines-presentation-de-la-liste-soutenue-par-le-rn-28193089.php",
+          "description": "Voici la liste complète des noms de l’équipe Du changement pour Eysines ! conduite par Pierre-Henri Nivet",
+          "date": "Wed, 11 Mar 2026 14:41:16 +0100"
         }
       ],
-      "last_update": "2026-03-11T13:38:12+01:00",
+      "last_update": "2026-03-11T20:53:02+01:00",
+      "status": "ok"
+    },
+    "https://blog.kilo.ai/feed": {
+      "articles": [
+        {
+          "title": "Inside Kilo Speed: How One Engineer is Replatforming Our VS Code Extension in a Month",
+          "link": "https://blog.kilo.ai/p/inside-kilo-speed-how-one-engineer-52c",
+          "description": "On a Wednesday morning, Mark IJbema sits down at his desk and reviews a pull request. He didn\u0026#8217;t write the code in it\u0026#8212;a Cloud Agent did, overnight.",
+          "date": "Wed, 11 Mar 2026 19:37:34 GMT"
+        },
+        {
+          "title": "Nemotron 3 Super is Live in Kilo",
+          "link": "https://blog.kilo.ai/p/nvidia-nemotron-3-super-launch",
+          "description": "NVIDIA's powerful new model is free in Kilo Code for a limited time",
+          "date": "Wed, 11 Mar 2026 16:55:01 GMT"
+        },
+        {
+          "title": "We've completely rebuilt the Kilo Code extension for VS Code. Join the beta test.",
+          "link": "https://blog.kilo.ai/p/we-completely-rebuilt-the-kilo-vs-code-extension",
+          "description": "Subagent delegation, parallel execution, and the full power of the CLI\u0026#8212;now inside your editor",
+          "date": "Tue, 10 Mar 2026 18:22:30 GMT"
+        },
+        {
+          "title": "AI Coding Assistants for Large Codebases: Architecture, Evaluation, and Best Practices (2026)",
+          "link": "https://blog.kilo.ai/p/ai-coding-assistants-for-large-codebases",
+          "description": "Most AI coding tools weren\u0026#8217;t designed to reason across complex repositories.",
+          "date": "Fri, 06 Mar 2026 19:02:25 GMT"
+        },
+        {
+          "title": "Benchmarking the Benchmarks: New GPT and Claude Releases Continue to One-Up Themselves",
+          "link": "https://blog.kilo.ai/p/benchmarking-the-benchmarks-new-gpt",
+          "description": "With Anthropic and OpenAI releasing new models at lightning speed, is it time for a new definition of a SOTA model?",
+          "date": "Fri, 06 Mar 2026 14:34:25 GMT"
+        },
+        {
+          "title": "Martian's Independent Benchmark Tested 13 Code Review Tools",
+          "link": "https://blog.kilo.ai/p/martians-independent-benchmark-tested",
+          "description": "Here's Where Kilo Landed",
+          "date": "Thu, 05 Mar 2026 23:25:24 GMT"
+        },
+        {
+          "title": "Will it roast? We tested Kilo Code Reviewer's Roast Mode on 5 Levels of Terrible Code",
+          "link": "https://blog.kilo.ai/p/will-it-roast-we-tested-kilo-code",
+          "description": "Kilo Code\u0026#8217;s Code Reviews now has a Roast Mode.",
+          "date": "Thu, 05 Mar 2026 11:57:43 GMT"
+        },
+        {
+          "title": "Gas Town by Kilo",
+          "link": "https://blog.kilo.ai/p/gas-town-by-kilo",
+          "description": "Steve Yegge\u0026#8217;s agent orchestrator, hosted by Kilo",
+          "date": "Wed, 04 Mar 2026 15:14:38 GMT"
+        },
+        {
+          "title": "Kilo Code Weekly Product Roundup | March 4, 2026",
+          "link": "https://blog.kilo.ai/p/kilo-code-weekly-product-roundup-dea",
+          "description": "Review Mode Suggestions, Claude Sonnet 4.6, New Providers, and 30+ Community PRs",
+          "date": "Wed, 04 Mar 2026 06:32:45 GMT"
+        },
+        {
+          "title": "KiloClaw Pricing: No Surprises, No Fine Print",
+          "link": "https://blog.kilo.ai/p/kiloclaw-pricing",
+          "description": "We promised 7 days free. You've been getting a lot more than that.",
+          "date": "Tue, 03 Mar 2026 21:54:47 GMT"
+        },
+        {
+          "title": "Hiring at Kilo Speed: The Process Reflects the Job",
+          "link": "https://blog.kilo.ai/p/hiring-at-kilo-speed-the-process",
+          "description": "The best engineers we\u0026#8217;ve hired could feel that Kilo Code is different, because the hiring process is different.",
+          "date": "Tue, 03 Mar 2026 10:15:21 GMT"
+        },
+        {
+          "title": "519 Developers Competed to Build the Worst Website Ever. ",
+          "link": "https://blog.kilo.ai/p/519-developers-competed-to-build",
+          "description": "They Did Not Disappoint.",
+          "date": "Fri, 27 Feb 2026 12:52:31 GMT"
+        },
+        {
+          "title": "Cloud Agents: The Missing Layer in Your DevOps Pipeline",
+          "link": "https://blog.kilo.ai/p/cloud-agents-the-missing-layer-in",
+          "description": "5 Real Use Cases for DevOps and Platform Engineers",
+          "date": "Thu, 26 Feb 2026 14:03:05 GMT"
+        },
+        {
+          "title": "MiniMax 2.5 vs. GLM-5 across 3 Coding Tasks [Benchmark \u0026 Results]",
+          "link": "https://blog.kilo.ai/p/we-tested-glm-5-and-minimax-m25-across",
+          "description": "GLM-5 and MiniMax M2.5 are two new open-weight models now available in Kilo Code.",
+          "date": "Wed, 25 Feb 2026 18:55:02 GMT"
+        },
+        {
+          "title": "GPT-5.3-Codex is Live in Kilo",
+          "link": "https://blog.kilo.ai/p/gpt-53-codex-is-live-in-kilo",
+          "description": "The best of OpenAI worlds, in one efficient coding model",
+          "date": "Wed, 25 Feb 2026 12:40:24 GMT"
+        },
+        {
+          "title": "We Wasted 4 Weeks on a $1,000/Month AI Agent",
+          "link": "https://blog.kilo.ai/p/we-wasted-4-weeks-on-a-1000month",
+          "description": "Then We Built Our Own in 89 Minutes",
+          "date": "Tue, 24 Feb 2026 19:58:48 GMT"
+        },
+        {
+          "title": "KiloClaw is Now Generally Available with 500+ Models and a New Agent Benchmark",
+          "link": "https://blog.kilo.ai/p/kiloclaw-hosted-openclaw",
+          "description": "Run OpenClaw in 60 seconds with 500+ models. No SSH required.",
+          "date": "Tue, 24 Feb 2026 15:13:53 GMT"
+        },
+        {
+          "title": "DeepSeek V4: Rumors vs Reality for the Next Big Coding Model",
+          "link": "https://blog.kilo.ai/p/deepseek-v4-rumors-vs-reality-for",
+          "description": "Development and training are accelerating for everybody, not just DeepSeek",
+          "date": "Mon, 23 Feb 2026 22:15:51 GMT"
+        },
+        {
+          "title": "Why we're still building autocomplete when the future is agents",
+          "link": "https://blog.kilo.ai/p/why-were-still-building-autocomplete",
+          "description": "The promise of agents is real, but AI adopters need a lower-stakes entry point.",
+          "date": "Mon, 23 Feb 2026 10:49:19 GMT"
+        },
+        {
+          "title": "Inside Kilo Speed: How Our Head of Data Shipped an Identity Resolution System Before His First Full Day",
+          "link": "https://blog.kilo.ai/p/inside-kilo-speed-how-our-head-of",
+          "description": "Can't trust AI with data tasks? Think again.",
+          "date": "Fri, 20 Feb 2026 19:46:19 GMT"
+        }
+      ],
+      "last_update": "2026-03-11T20:53:09+01:00",
       "status": "ok"
     },
     "https://flux.yoandev.co/rss.xml": {
@@ -1222,133 +1348,133 @@
           "date": "Sun, 08 Mar 2026 00:00:00 GMT"
         }
       ],
-      "last_update": "2026-03-11T13:38:12+01:00",
+      "last_update": "2026-03-11T20:53:02+01:00",
       "status": "ok"
     },
     "https://hnrss.org/frontpage": {
       "articles": [
         {
-          "title": "AutoKernel: Autoresearch for GPU Kernels",
-          "link": "https://github.com/RightNow-AI/autokernel",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://github.com/RightNow-AI/autokernel\"\u003ehttps://github.com/RightNow-AI/autokernel\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47332688\"\u003ehttps://news.ycombinator.com/item?id=47332688\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 35\u003c/p\u003e\n\u003cp\u003e# Comments: 5\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 07:42:10 +0000"
+          "title": "Don't post generated/AI-edited comments. HN is for conversation between humans.",
+          "link": "https://news.ycombinator.com/newsguidelines.html#generated",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://news.ycombinator.com/newsguidelines.html#generated\"\u003ehttps://news.ycombinator.com/newsguidelines.html#generated\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47340079\"\u003ehttps://news.ycombinator.com/item?id=47340079\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 34\u003c/p\u003e\n\u003cp\u003e# Comments: 8\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 19:29:29 +0000"
         },
         {
-          "title": "Create value for others and don’t worry about the returns",
-          "link": "https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html\"\u003ehttps://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47332074\"\u003ehttps://news.ycombinator.com/item?id=47332074\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 421\u003c/p\u003e\n\u003cp\u003e# Comments: 259\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 05:45:49 +0000"
+          "title": "Hisense TVs force owners to watch intrusive ads",
+          "link": "https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing\"\u003ehttps://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47339888\"\u003ehttps://news.ycombinator.com/item?id=47339888\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 27\u003c/p\u003e\n\u003cp\u003e# Comments: 9\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 19:13:35 +0000"
         },
         {
-          "title": "TADA: Fast, Reliable Speech Generation Through Text-Acoustic Synchronization",
-          "link": "https://www.hume.ai/blog/opensource-tada",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.hume.ai/blog/opensource-tada\"\u003ehttps://www.hume.ai/blog/opensource-tada\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47332054\"\u003ehttps://news.ycombinator.com/item?id=47332054\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 57\u003c/p\u003e\n\u003cp\u003e# Comments: 13\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 05:42:55 +0000"
+          "title": "I Was Interviewed by an AI Bot for a Job",
+          "link": "https://schwarztech.net/snippets/i-was-interviewed-by-an-ai-bot-for-a-job",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://schwarztech.net/snippets/i-was-interviewed-by-an-ai-bot-for-a-job\"\u003ehttps://schwarztech.net/snippets/i-was-interviewed-by-an-ai-bot-for-a-job\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47339164\"\u003ehttps://news.ycombinator.com/item?id=47339164\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 10\u003c/p\u003e\n\u003cp\u003e# Comments: 7\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 18:17:30 +0000"
         },
         {
-          "title": "Standardizing source maps",
-          "link": "https://bloomberg.github.io/js-blog/post/standardizing-source-maps/",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://bloomberg.github.io/js-blog/post/standardizing-source-maps/\"\u003ehttps://bloomberg.github.io/js-blog/post/standardizing-source-maps/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47331802\"\u003ehttps://news.ycombinator.com/item?id=47331802\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 47\u003c/p\u003e\n\u003cp\u003e# Comments: 4\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 04:42:23 +0000"
+          "title": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids",
+          "link": "https://fuelingcuriosity.com/game.html",
+          "description": "\n\u003cp\u003eHi HN,\nI’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.\u003cp\u003eHere's a simple runthrough: \u003ca href=\"https://www.youtube.com/watch?v=is-moBz6upU\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=is-moBz6upU\u003c/a\u003e. I pushed to get through a full product pathway to show the V-804 replay.\u003cp\u003eI am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D physics minigames.\u003cp\u003eA few technical takeaways from building this as a non-dev:\n * Managing the LLM workflow: Once the script.js file got large, letting the models output full file rewrites was a disaster (truncations, hallucinations, invisible curly-quote replacements that broke the JS). I started forcing them to act like patch files, strictly outputting \"Find this exact block\" and \"Replace with this exact block.\" This was the only way to maintain improvements without breaking existing logic.\u003cp\u003e* Mapping physics to CSS: I wanted the minigames to visually sit inside circular CSS containers (border-radius: 50%). Matter.js doesn't natively care about your CSS. Getting the rigid body physics to respect a dynamic, responsive DOM boundary across different screen sizes required running an elliptical boundary equation (dx * dx) / (rx * rx) + (dy * dy) / (ry * ry) \u003e 1 on every single frame. Maybe this was overkill to try to handle the resizing between phones and PCs.\u003cp\u003e* Mobile browser events: Forcing iOS Safari to ignore its default behaviors (double-tap zoom, swipe-to-scroll) while still allowing the user to tap and drag Matter.js objects required a ridiculous amount of custom event listener management and CSS (touch-action: manipulation; user-select: none;). I also learned that these actions very easily kill the mouse scroll making it very frustrating for PC users. I am hoping I hit a good middle ground.\u003cp\u003e* State management: Since I didn't use React or any frameworks, I had to rely on a global state object. Because the game jumps between different phases/minigames, I ran into massive memory leaks from old setInterval loops and Matter.js bodies stacking up. I had to build strict teardown functions to wipe the slate clean on every map transition.\u003cp\u003eThe game walks through electrostatic desalting, fractional distillation, hydrotreating, catalytic cracking, and gasoline blending (hitting specific Octane and RVP specs).\u003cp\u003eIt’s completely free, runs client-side, and has zero ads or sign-ups. I'd appreciate any feedback on the mechanics, or let me know if you manage to break the physics engine. Happy to answer any questions about the chemical engineering side of things as well.\u003cp\u003eFor some reason the URL box is not getting recognized, maybe someone can help me feel less dumb there too. \n\u003ca href=\"https://fuelingcuriosity.com/game\" rel=\"nofollow\"\u003ehttps://fuelingcuriosity.com/game\u003c/a\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47338091\"\u003ehttps://news.ycombinator.com/item?id=47338091\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 57\u003c/p\u003e\n\u003cp\u003e# Comments: 24\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 16:56:51 +0000"
         },
         {
-          "title": "Writing my own text editor, and daily-driving it",
-          "link": "https://blog.jsbarretto.com/post/text-editor",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://blog.jsbarretto.com/post/text-editor\"\u003ehttps://blog.jsbarretto.com/post/text-editor\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47331034\"\u003ehttps://news.ycombinator.com/item?id=47331034\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 126\u003c/p\u003e\n\u003cp\u003e# Comments: 46\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 02:04:22 +0000"
+          "title": "Fungal Electronics (2021)",
+          "link": "https://arxiv.org/abs/2111.11231",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://arxiv.org/abs/2111.11231\"\u003ehttps://arxiv.org/abs/2111.11231\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47338055\"\u003ehttps://news.ycombinator.com/item?id=47338055\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 37\u003c/p\u003e\n\u003cp\u003e# Comments: 4\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 16:53:11 +0000"
         },
         {
-          "title": "Zig – Type Resolution Redesign and Language Changes",
-          "link": "https://ziglang.org/devlog/2026/#2026-03-10",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://ziglang.org/devlog/2026/#2026-03-10\"\u003ehttps://ziglang.org/devlog/2026/#2026-03-10\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47330836\"\u003ehttps://news.ycombinator.com/item?id=47330836\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 285\u003c/p\u003e\n\u003cp\u003e# Comments: 111\u003c/p\u003e\n",
-          "date": "Wed, 11 Mar 2026 01:24:47 +0000"
+          "title": "Launch HN: Sentrial (YC W26) – Catch AI agent failures before your users do",
+          "link": "https://www.sentrial.com/",
+          "description": "\n\u003cp\u003eHey HN! We're Neel and Anay, and we’re building Sentrial (\u003ca href=\"https://sentrial.com\"\u003ehttps://sentrial.com\u003c/a\u003e). It’s production monitoring for AI products. We automatically detect failure patterns: loops, hallucinations, tool misuse, and user frustrations the moment they happen. When issues surface, Sentrial diagnoses the root cause by analyzing conversation patterns, model outputs, and tool interactions, then recommends specific fixes.\u003cp\u003eHere's a demo if you're interested: \u003ca href=\"https://www.youtube.com/watch?v=cc4DWrJF7hk\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=cc4DWrJF7hk\u003c/a\u003e.\nWhen agents fail, choose wrong tools, or blow cost budgets, there's no way to know why - usually just logs and guesswork. As agents move from demos to production with real SLAs and real users, this is not sustainable.\u003cp\u003eNeel and I lived this, building agents at SenseHQ and Accenture where we found that debugging agents was often harder than actually building them. Agents are untrustworthy in prod because there’s no good infrastructure to verify what they’re actually doing.\u003cp\u003eIn practice this looks like: - A support agent that began misclassifying refund requests as product questions, which meant customers never reached the refund flow. - A document drafting agent that would occasionally hallucinate missing sections when parsing long specs, producing confident but incorrect outputs. There’s no stack trace or 500 error and you only figure this out when a customer is angry.\u003cp\u003eWe both realized teams were flying blind in production, and that agent native monitoring was going to be foundational infrastructure for every serious AI product. We started Sentrial as a verification layer designed to take care of this.\u003cp\u003eHow it works: You wrap your client with our SDK in only a couple of lines. From there, we detect drift for you: - Wrong tool invocations - Misunderstood intents - Hallucinations - Quality regressions over time. You see it on our platform before a customer files a ticket.\u003cp\u003eThere’s a quick mcp set up, just give claude code: claude mcp add --transport http Sentrial \u003ca href=\"https://www.sentrial.com/docs/mcp\"\u003ehttps://www.sentrial.com/docs/mcp\u003c/a\u003e\u003cp\u003eWe have a free tier (14 days, no credit card required). We’d love any feedback from anyone running agents whether they be for personal use or within a professional setting.\u003cp\u003eWe’ll be around in the comments!\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47337659\"\u003ehttps://news.ycombinator.com/item?id=47337659\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 17\u003c/p\u003e\n\u003cp\u003e# Comments: 6\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 16:24:17 +0000"
         },
         {
-          "title": "Universal vaccine against respiratory infections and allergens",
-          "link": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html\"\u003ehttps://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47329608\"\u003ehttps://news.ycombinator.com/item?id=47329608\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 281\u003c/p\u003e\n\u003cp\u003e# Comments: 95\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 22:33:48 +0000"
+          "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
+          "link": "https://sitespy.app",
+          "description": "\n\u003cp\u003eI built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.\u003cp\u003eIt watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds.\u003cp\u003eSo instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, you can inspect the diff, browse the snapshot history, or follow the updates in an RSS reader.\u003cp\u003eIt’s a Chrome/Firefox extension plus a web dashboard.\u003cp\u003eMain features:\u003cp\u003e- Element picker for tracking a specific part of a page\u003cp\u003e- Diff view plus full snapshot timeline\u003cp\u003e- RSS feeds per watch, per tag, or across all watches\u003cp\u003e- MCP server for Claude, Cursor, and other AI agents\u003cp\u003e- Browser push, Email, and Telegram notifications\u003cp\u003eChrome: \u003ca href=\"https://chromewebstore.google.com/detail/site-spy/jeapcpanagdgipcfnncmogeojgfofige\" rel=\"nofollow\"\u003ehttps://chromewebstore.google.com/detail/site-spy/jeapcpanag...\u003c/a\u003e\u003cp\u003eFirefox: \u003ca href=\"https://addons.mozilla.org/en-GB/firefox/addon/site-spy/\" rel=\"nofollow\"\u003ehttps://addons.mozilla.org/en-GB/firefox/addon/site-spy/\u003c/a\u003e\u003cp\u003eDocs: \u003ca href=\"https://docs.sitespy.app\" rel=\"nofollow\"\u003ehttps://docs.sitespy.app\u003c/a\u003e\u003cp\u003eI’d especially love feedback on two things:\u003cp\u003e- Is RSS actually a useful interface for this, or do most people just want direct alerts?\u003cp\u003e- Does element-level tracking feel meaningfully better than full-page monitoring?\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47337607\"\u003ehttps://news.ycombinator.com/item?id=47337607\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 40\u003c/p\u003e\n\u003cp\u003e# Comments: 14\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 16:21:06 +0000"
         },
         {
-          "title": "U+237C ⍼ Is Azimuth",
-          "link": "https://ionathan.ch/2026/02/16/angzarr.html",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://ionathan.ch/2026/02/16/angzarr.html\"\u003ehttps://ionathan.ch/2026/02/16/angzarr.html\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47329605\"\u003ehttps://news.ycombinator.com/item?id=47329605\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 334\u003c/p\u003e\n\u003cp\u003e# Comments: 49\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 22:33:45 +0000"
+          "title": "Launch HN: Prism (YC X25) – Workspace and API to generate and edit videos",
+          "link": "https://www.prismvideos.com",
+          "description": "\n\u003cp\u003eHey HN — we’re Rajit, Land, and Alex. We’re building Prism (\u003ca href=\"https://www.prismvideos.com\"\u003ehttps://www.prismvideos.com\u003c/a\u003e), an AI video creation platform and API.\u003cp\u003eHere’s a quick demo of how you can remix any video with Prism: \u003ca href=\"https://youtu.be/0eez_2DnayI\" rel=\"nofollow\"\u003ehttps://youtu.be/0eez_2DnayI\u003c/a\u003e\u003cp\u003eHere’s a quick demo of how you can automate UGC-style ads with Openclaw + Prism: \u003ca href=\"https://www.youtube.com/watch?v=5dWaD23qnro\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=5dWaD23qnro\u003c/a\u003e\u003cp\u003eAccompanying skill.md file: \u003ca href=\"https://docs.google.com/document/d/1lIskVljW1OqbkXFyXeLHRsfMictCfuxGGwczAnB1vhk\" rel=\"nofollow\"\u003ehttps://docs.google.com/document/d/1lIskVljW1OqbkXFyXeLHRsfM...\u003c/a\u003e\u003cp\u003eMaking an AI video today usually means stitching together a dozen tools (image generation, image-to-video, upscalers, lip-sync, voiceover, and an editor). Every step turns into export/import and file juggling, so assets end up scattered across tabs and local storage, and iterating on a multi-scene video is slow.\u003cp\u003ePrism keeps the workflow in one place: you generate assets (images/video clips) and assemble them directly in a timeline editor without downloading files between tools. Practically, that means you can try different models (Kling, Veo, Sora, Hailuo, etc) and settings for a single clip, swap it on the timeline, and keep iterating without re-exporting and rebuilding the edit elsewhere.\u003cp\u003eWe also support templates and one-click asset recreation, so you can reuse workflows from us or the community instead of rebuilding each asset from scratch. Those templates are exposed through our API, letting your AI agents discover templates in our catalog, supply the required inputs, and generate videos in a repeatable way without manually stitching the workflow together.\u003cp\u003eWe built Prism because we were making AI videos ourselves and were unsatisfied with the available tools. We kept losing time to repetitive “glue work” such as constantly downloading files, keeping track of prompts/versions, and stitching clips in a separate video editing software. We’re trying to make the boring parts of multi-step AI video creation less manual so users can generate → review → edit → assemble → export, all inside one platform.\u003cp\u003ePricing is based on usage credits, with a free tier (100 credits/month) and free models, so you can try it without providing a credit card: \u003ca href=\"https://prismvideos.com\"\u003ehttps://prismvideos.com\u003c/a\u003e.\u003cp\u003eWe’d love to hear from people who’ve tried making AI videos: where does your workflow break, what parts are the most tedious, and what do you wish video creation tools on the market could do?\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47337548\"\u003ehttps://news.ycombinator.com/item?id=47337548\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 23\u003c/p\u003e\n\u003cp\u003e# Comments: 13\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 16:16:12 +0000"
         },
         {
-          "title": "Cloudflare crawl endpoint",
-          "link": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/\"\u003ehttps://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47329557\"\u003ehttps://news.ycombinator.com/item?id=47329557\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 339\u003c/p\u003e\n\u003cp\u003e# Comments: 131\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 22:27:15 +0000"
+          "title": "Show HN: Klaus – OpenClaw on a VM, batteries included",
+          "link": "https://klausai.com/",
+          "description": "\n\u003cp\u003eWe are Bailey and Robbie and we are working on Klaus (\u003ca href=\"https://klausai.com/\" rel=\"nofollow\"\u003ehttps://klausai.com/\u003c/a\u003e): hosted OpenClaw that is secure and powerful out of the box.\u003cp\u003eRunning OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app.\u003cp\u003eWe make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and Orthogonal. And we have OAuth apps to make it easy to integrate with Slack and Google Workspace.\u003cp\u003eWe are both HN readers (Bailey has been on here for ~10 years) and we know OpenClaw has serious security concerns. We do a lot to make our users’ instances more secure: we run on a private subnet, automatically update the OpenClaw version our users run, and because you’re on our VM by default the only keys you leak if you get hacked belong to us. Connecting your email is still a risk. The best defense I know of is Opus 4.6 for resilience to prompt injection. If you have a better solution, we’d love to hear it!\u003cp\u003eWe learned a lot about infrastructure management in the past month. Kimi K2.5 and Mimimax M2.5 are extremely good at hallucinating new ways to break openclaw.json and otherwise wreaking havoc on an EC2 instance. The week after our launch we spent 20+ hours fixing broken machines by hand.\u003cp\u003eWe wrote a ton of best practices on using OpenClaw on AWS Linux into our users’ AGENTS.md, got really good at un-bricking EC2 machines over SSM, added a command-and-control server to every instance to facilitate hotfixes and migrations, and set up a Klaus instance to answer FAQs on discord.\u003cp\u003eIn addition to all of this, we built ClawBert, our AI SRE for hotfixing OpenClaw instances automatically: \u003ca href=\"https://www.youtube.com/watch?v=v65F6VBXqKY\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=v65F6VBXqKY\u003c/a\u003e. Clawbert is a Claude Code instance that runs whenever a health check fails or the user triggers it in the UI. It can read that user’s entries in our database and execute commands on the user’s instance. We expose a log of Clawbert’s runs to the user.\u003cp\u003eWe know that setting up OpenClaw is easy for most HN readers, but I promise it is not for most people. Klaus has a long way to go, but it’s still very rewarding to see people who’ve never used Claude Code get their first taste of AI agents.\u003cp\u003eWe charge $19/m for a t4g.small, $49/m for a t4g.medium, and $200/m for a t4g.xlarge and priority support. You get $15 in tokens and $20 in Orthogonal credits one-time.\u003cp\u003eWe want to know what you are building on OpenClaw so we can make sure we support it. We are already working with companies like Orthogonal and Openrouter that are building things to make agents more useful, and we’re sure there are more tools out there we don’t know about. If you’ve built something agents want, please let us know. Comments welcome!\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47337249\"\u003ehttps://news.ycombinator.com/item?id=47337249\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 70\u003c/p\u003e\n\u003cp\u003e# Comments: 44\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 15:54:23 +0000"
         },
         {
-          "title": "RISC-V Is Sloooow",
-          "link": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/\"\u003ehttps://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47328214\"\u003ehttps://news.ycombinator.com/item?id=47328214\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 264\u003c/p\u003e\n\u003cp\u003e# Comments: 269\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 20:11:54 +0000"
+          "title": "Where Some See Strings, She Sees a Space-Time Made of Fractals",
+          "link": "https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/\"\u003ehttps://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47337177\"\u003ehttps://news.ycombinator.com/item?id=47337177\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 80\u003c/p\u003e\n\u003cp\u003e# Comments: 11\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 15:48:29 +0000"
         },
         {
-          "title": "Agents that run while I sleep",
-          "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep\"\u003ehttps://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47327559\"\u003ehttps://news.ycombinator.com/item?id=47327559\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 349\u003c/p\u003e\n\u003cp\u003e# Comments: 400\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 19:09:46 +0000"
+          "title": "Temporal: A nine-year journey to fix time in JavaScript",
+          "link": "https://bloomberg.github.io/js-blog/post/temporal/",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://bloomberg.github.io/js-blog/post/temporal/\"\u003ehttps://bloomberg.github.io/js-blog/post/temporal/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47336989\"\u003ehttps://news.ycombinator.com/item?id=47336989\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 319\u003c/p\u003e\n\u003cp\u003e# Comments: 119\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 15:35:50 +0000"
         },
         {
-          "title": "Mesh over Bluetooth LE, TCP, or Reticulum",
-          "link": "https://github.com/torlando-tech/columba",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://github.com/torlando-tech/columba\"\u003ehttps://github.com/torlando-tech/columba\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47327473\"\u003ehttps://news.ycombinator.com/item?id=47327473\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 103\u003c/p\u003e\n\u003cp\u003e# Comments: 11\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 19:02:01 +0000"
+          "title": "Why the global elite gave up on spelling and grammar",
+          "link": "https://www.wsj.com/lifestyle/jeffrey-epstein-files-bad-grammar-spelling-trump-ellison-dorsey-gates-thiel-cbfe9fb1",
+          "description": "\n\u003cp\u003e\u003ca href=\"https://archive.ph/wlwcA\" rel=\"nofollow\"\u003ehttps://archive.ph/wlwcA\u003c/a\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47336806\"\u003ehttps://news.ycombinator.com/item?id=47336806\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 70\u003c/p\u003e\n\u003cp\u003e# Comments: 188\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 15:22:10 +0000"
         },
         {
-          "title": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
-          "link": "https://github.com/steelbrain/ffmpeg-over-ip",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://github.com/steelbrain/ffmpeg-over-ip\"\u003ehttps://github.com/steelbrain/ffmpeg-over-ip\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47327015\"\u003ehttps://news.ycombinator.com/item?id=47327015\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 201\u003c/p\u003e\n\u003cp\u003e# Comments: 62\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 18:26:39 +0000"
+          "title": "Wiz joins Google",
+          "link": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz\"\u003ehttps://www.wiz.io/blog/google-closes-deal-to-acquire-wiz\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47336476\"\u003ehttps://news.ycombinator.com/item?id=47336476\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 126\u003c/p\u003e\n\u003cp\u003e# Comments: 87\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 14:58:20 +0000"
         },
         {
-          "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
-          "link": "https://github.com/RunanywhereAI/rcli",
-          "description": "\n\u003cp\u003eHi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal shaders, no framework overhead.\u003cp\u003eAlso, we've open-sourced RCLI, the fastest end-to-end voice AI pipeline on Apple Silicon. Mic to spoken response, entirely on-device. No cloud, no API keys.\u003cp\u003eTo get started:\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  brew tap RunanywhereAI/rcli https://github.com/RunanywhereAI/RCLI.git\n  brew install rcli\n  rcli setup   # downloads ~1 GB of models\n  rcli         # interactive mode with push-to-talk\n\u003c/code\u003e\u003c/pre\u003e\nOr:\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  curl -fsSL https://raw.githubusercontent.com/RunanywhereAI/RCLI/main/install.sh | bash\n\u003c/code\u003e\u003c/pre\u003e\nThe numbers (M4 Max, 64 GB, reproducible via `rcli bench`):\u003cp\u003eLLM decode – 1.67x faster than llama.cpp, 1.19x faster than Apple MLX (same model files):\n- Qwen3-0.6B: 658 tok/s (vs mlx-lm 552, llama.cpp 295)\n- Qwen3-4B: 186 tok/s (vs mlx-lm 170, llama.cpp 87)\n- LFM2.5-1.2B: 570 tok/s (vs mlx-lm 509, llama.cpp 372)\n- Time-to-first-token: 6.6 ms\u003cp\u003eSTT – 70 seconds of audio transcribed in *101 ms*. That's 714x real-time. 4.6x faster than mlx-whisper.\u003cp\u003eTTS – 178 ms synthesis. 2.8x faster than mlx-audio and sherpa-onnx.\u003cp\u003eWe built this because demoing on-device AI is easy but shipping it is brutal. Voice is the hardest test: you're chaining STT, LLM, and TTS sequentially, and if any stage is slow, the user feels it. Most teams fall back to cloud APIs not because local models are bad, but because local inference infrastructure is.\u003cp\u003eThe thing that's hard to solve is latency compounding. In a voice pipeline, you're stacking three models in sequence. If each adds 200ms, you're at 600ms before the user hears a word, and that feels broken. You can't optimize one stage and call it done. Every stage needs to be fast, on one device, with no network round-trip to hide behind.\u003cp\u003eWe went straight to Metal. Custom GPU compute shaders, all memory pre-allocated at init (zero allocations during inference), and one unified engine for all three modalities instead of stitching separate runtimes together.\u003cp\u003eMetalRT is the first engine to handle all three modalities natively on Apple Silicon. Full methodology:\u003cp\u003eLLM benchmarks: \u003ca href=\"https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-engine-apple-silicon\"\u003ehttps://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-e...\u003c/a\u003e\u003cp\u003eSpeech benchmarks: \u003ca href=\"https://www.runanywhere.ai/blog/metalrt-speech-fastest-stt-tts-apple-silicon\"\u003ehttps://www.runanywhere.ai/blog/metalrt-speech-fastest-stt-t...\u003c/a\u003e\u003cp\u003eHow: Most inference engines add layers between you and the GPU: graph schedulers, runtime dispatchers, memory managers. MetalRT skips all of it. Custom Metal compute shaders for quantized matmul, attention, and activation - compiled ahead of time, dispatched directly.\u003cp\u003eVoice Pipeline optimizations details: \u003ca href=\"https://www.runanywhere.ai/blog/fastvoice-on-device-voice-ai-pipeline-apple-silicon\"\u003ehttps://www.runanywhere.ai/blog/fastvoice-on-device-voice-ai...\u003c/a\u003e\nRAG optimizations: \u003ca href=\"https://www.runanywhere.ai/blog/fastvoice-rag-on-device-retrieval-augmented-voice-ai\"\u003ehttps://www.runanywhere.ai/blog/fastvoice-rag-on-device-retr...\u003c/a\u003e\u003cp\u003eRCLI is the open-source voice pipeline (MIT) built on MetalRT: three concurrent threads with lock-free ring buffers, double-buffered TTS, 38 macOS actions by voice, local RAG (~4 ms over 5K+ chunks), 20 hot-swappable models, and a full-screen TUI with per-op latency readouts. Falls back to llama.cpp when MetalRT isn't installed.\u003cp\u003eSource: \u003ca href=\"https://github.com/RunanywhereAI/RCLI\" rel=\"nofollow\"\u003ehttps://github.com/RunanywhereAI/RCLI\u003c/a\u003e (MIT)\u003cp\u003eDemo: \u003ca href=\"https://www.youtube.com/watch?v=eTYwkgNoaKg\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=eTYwkgNoaKg\u003c/a\u003e\u003cp\u003eWhat would you build if on-device AI were genuinely as fast as cloud?\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47326101\"\u003ehttps://news.ycombinator.com/item?id=47326101\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 221\u003c/p\u003e\n\u003cp\u003e# Comments: 131\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 17:14:52 +0000"
+          "title": "Show HN: Open-source browser for AI agents",
+          "link": "https://github.com/theredsix/agent-browser-protocol",
+          "description": "\n\u003cp\u003eHi HN, I forked chromium and built agent-browser-protocol (ABP) after noticing that most browser-agent failures aren’t really about the model misunderstanding the page. Instead, the problem is that the model is reasoning from a stale state.\u003cp\u003eABP is designed to keep the acting agent synchronized with the browser at every step. After each action (click, type, etc), it freezes JavaScript execution and rendering, then captures the resulting state. It also compiles the notable events that occurred during that action loop, such as navigation, file pickers, permission prompts, alerts, and downloads, and sends that along with a screenshot of the frozen page state back to the agent.\u003cp\u003eThe result is that browser interaction starts to feel more like a multimodal chat loop. The agent takes an action, gets back a fresh visual state and a structured summary of what happened, then decides what to do next from there. That fits much better with how LLMs already work.\u003cp\u003eA few common browser-use failures ABP helps eliminate:\n* A modal appears after the last Playwright screenshot and blocks the input the agent was about to use\n* Dynamic filters cause the page to reflow between steps\n* An autocomplete dropdown opens and covers the element the agent intended to click\n* alert() / confirm() interrupts the flow\n* Downloads are triggered, but the agent has no reliable way to know when they’ve completed\u003cp\u003eAs proof, ABP with opus 4.6 as the driver scores 90.5% on the Online Mind2Web benchmark. I think modern LLMs already understand websites, they just need a better tool to interact with them. Happy to answer questions about the architecture, forking chrome or anything else in the comments below.\u003cp\u003eTry it out: `claude mcp add browser -- npx -y agent-browser-protocol --mcp` (Codex/OpenCode instructions in the docs)\u003cp\u003eDemo video: \u003ca href=\"https://www.loom.com/share/387f6349196f417d8b4b16a5452c3369\" rel=\"nofollow\"\u003ehttps://www.loom.com/share/387f6349196f417d8b4b16a5452c3369\u003c/a\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47336171\"\u003ehttps://news.ycombinator.com/item?id=47336171\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 66\u003c/p\u003e\n\u003cp\u003e# Comments: 18\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 14:39:30 +0000"
         },
         {
-          "title": "Surpassing vLLM with a Generated Inference Stack",
-          "link": "https://infinity.inc/case-studies/qwen3-optimization",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://infinity.inc/case-studies/qwen3-optimization\"\u003ehttps://infinity.inc/case-studies/qwen3-optimization\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47324364\"\u003ehttps://news.ycombinator.com/item?id=47324364\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 45\u003c/p\u003e\n\u003cp\u003e# Comments: 15\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 15:12:52 +0000"
+          "title": "Faster asin() was hiding in plain sight",
+          "link": "https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/\"\u003ehttps://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47336111\"\u003ehttps://news.ycombinator.com/item?id=47336111\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 152\u003c/p\u003e\n\u003cp\u003e# Comments: 87\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 14:35:53 +0000"
         },
         {
-          "title": "Launch HN: Didit (YC W26) – Stripe for Identity Verification",
-          "link": "https://news.ycombinator.com/item?id=47324296",
-          "description": "\n\u003cp\u003eHi HN, I’m Alberto. I co-founded Didit (\u003ca href=\"https://didit.me\"\u003ehttps://didit.me\u003c/a\u003e) with my identical twin brother Alejandro. We are building a unified identity layer—a single integration that handles KYC, AML, biometrics, authentication, and fraud prevention globally. Here’s a demo: \u003ca href=\"https://www.youtube.com/watch?v=eTdcg7JCc4M\u0026t=7s\" rel=\"nofollow\"\u003ehttps://www.youtube.com/watch?v=eTdcg7JCc4M\u0026t=7s\u003c/a\u003e.\u003cp\u003eBeing identical twins, we’ve spent our whole lives dealing with identity confusion, so it is a bit of irony that we ended up building a company to solve it for the internet.\u003cp\u003eGrowing up in Barcelona, we spent years working on products where identity issues were a massive pain. We eventually realized that for most engineering teams, \"global identity\" is a fiction—in reality it is a fragmented mess. You end up stitching together one provider for US driver's licenses, another for NFC chip extraction in Europe, a third for AML screening, a fourth for government database validation in Brazil, a fifth for liveness detection on low-end Android devices, and yet another for biometric authentication and age estimation. Orchestrating these into a cohesive flow while adapting to localized regulations like GDPR or CCPA is a nightmare that makes no sense for most teams to be working on.\u003cp\u003eWhen we looked at the existing \"enterprise\" solutions, we were baffled. Most require a three-week sales cycle just to see a single page of documentation. Pricing is hidden behind \"Contact Us\" buttons, and the products themselves are often bloated legacy systems with high latency and abysmal accuracy.\u003cp\u003eWe also noticed a recurring pattern: these tools are frequently optimized only for the latest iOS hardware, performing poorly on the mid-range or older Android devices that make up a huge percentage of the market. This results in a \"leaky\" funnel where legitimate users drop off due to technical friction and fraud goes undetected because data points are spread across disparate systems. Also, these systems are expensive, often requiring massive annual commits that price out early-stage startups.\u003cp\u003eWe wanted to build a system that is accessible to everyone—a tool that works like Stripe for identity, where you can get a sandbox key in thirty seconds and start running real verifications with world-class UX and transparent pricing.\u003cp\u003eTo solve this, we took the \"delusional\" path of full vertical integration. Rather than just wrapping existing APIs, we built our own ID verification and biometric AI models—from classification and fraud detection to OCR models for almost every language. This vertical integration is fundamental to how we handle user data. Because we own the entire stack, we control the flow of sensitive information from end-to-end. Your users' data doesn't get bounced around through a chain of third-party black boxes or regional middle-men. This allows us to provide a level of security and privacy that is impossible when you are just an orchestration layer for other people's APIs.\u003cp\u003eWe believe that identity verification is one of the most critical problems on the internet, and must be solved correctly and ethically. Many people are rightfully skeptical, especially given recent news about projects that have turned identity into a tool for mass data collection or surveillance. We don’t do anything of the sort, but we also don’t want to be coerced in the future, so we facilitate data minimization on the customer side. Instead of a business asking for a full ID scan, we allow them to simply verify a specific attribute—like \"is this person over 18?\"—without ever seeing the document itself. Our goal is to move the industry away from data hoarding and toward zero knowledge, or at least minimal knowledge, verification.\u003cp\u003eThe result of our all-in-one approach is a platform that increases onboarding rates while lowering identity costs. We’ve focused on building a high-confidence automated loop that reduces the need for manual review by up to 90%, catching sophisticated deepfakes and spoofing attempts that standard vision models miss. Our SDK is optimized for low bandwidth connections, ensuring it works on spotty 3G networks where legacy providers usually fail.\u003cp\u003eWe are fully live, and you can jump into the dashboard at \n\u003ca href=\"https://business.didit.me\"\u003ehttps://business.didit.me\u003c/a\u003e to see the workflow orchestration immediately. Our pricing is transparent and success-based; we don’t believe in hiding costs behind a sales call.\u003cp\u003eWe’re here all day to answer any question—whether it’s about how we handle NFC verification, our approach to deepfake detection, the general ethics behind biometric data retention, or how we think about the future of identity. We’d love your brutal HN feedback on our APIs, platform, and integration flow!\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47324296\"\u003ehttps://news.ycombinator.com/item?id=47324296\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 72\u003c/p\u003e\n\u003cp\u003e# Comments: 61\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 15:08:05 +0000"
+          "title": "Show HN: I built an ISP infrastructure emulator from scratch with a custom vBNG",
+          "link": "https://aether.saphal.me/dashboard/default",
+          "description": "\n\u003cp\u003eDemo: \u003ca href=\"https://aether.saphal.me\" rel=\"nofollow\"\u003ehttps://aether.saphal.me\u003c/a\u003e\nGitHub: \u003ca href=\"https://github.com/saphalpdyl/Aether\" rel=\"nofollow\"\u003ehttps://github.com/saphalpdyl/Aether\u003c/a\u003e\u003cp\u003eAether is a multi-BNG (Broadband Network Gateway) ISP infrastructure lab built almost from scratch that emulates IPoE IPv4 subscriber management end-to-end. It supports IPoE/Ipv4 networks and runs a python-based vBNG with RADIUS AAA, per-subscriber traffic shaping, and traffic simulation emulated on Containerlab. It is also my first personal networking project, built roughly over a month.\u003cp\u003eMotivations behind the project\u003cp\u003eI'm a CS sophomore. About three years ago, I was assigned, as an intern, to build a OSS/BSS platform for a regional ISP by myself without mentoring. Referencing demo.splynx.com , I developed most of the BSS side ( bookkeeping, accounting, inventory management ), but, in terms of networking, I managed to install and setup RADIUS and that was about it. I didn't have anyone to mentor me or ask questions to, so I had given up then.\u003cp\u003eThree years later, I decided to try cracking it again. This project is meant to serve as a learning reference for anyone who's been in that same position i.e staring at closed-source vendor stacks without proper guidance. This is absolutely not production-grade, but I hope it gives someone a place to start.\u003cp\u003eArchitecture overview\u003cp\u003eThe core component, the BNG, runs on an event-driven architecture where state changes are passed around as messages to avoid handling mutexes and locks. The session manager is the sole owner of the session state. To keep it clean and predictable, the  direBNG never accepts external inputctly. The one exception is the Go RADIUS CoA daemon, which passes CoA messages in via IPC sockets. Everything the BNG produces(events, session snapshots) gets pushed to Redis Streams, where the bng-ingestor picks them up, processes them, and persists them.\u003cp\u003eSimulation and meta-configs\u003cp\u003eI am generating traffic through a simulator node that mounts the host's docker socket and runs docker exec commands on selected hosts. The topology.yaml used by Containerlab to define the network topology grows bigger as more BNG's and access nodes are added. So aether.config.yaml, a simpler configuration, is consumed by the configuration pipeline to generate the topology.yaml and other files (nginx.conf, kea-dhcp.conf, RADIUS clients.conf etc.)\u003cp\u003eKnown Limitations\u003cp\u003e- Multiple veth hops through the emulated topology add significant overhead. Profiling with iperf3 (-P 10 -t 10, 9500 MTU, 24 vCPUs) shows BNG→upstream at ~24 Gbit/s, but host→BNG→upstream drops to ~3.5 Gbit/s. The 9500 MTU also isn't representative of real ISP deployments. This gets worse when the actual network is reintroduced capping my throughput to 1.6 Gbits/sec in local.\n- The circuit ID format (1/0/X) is non-standard. I simplified it for clarity.\n- No iBGP or VLAN support.\n- No Ipv6 support. I wanted to target IPv4 networks from the start to avoid getting too much breadth without a lot of depth.\u003cp\u003eNearly everything I know about networking (except some sections from AWS) I learned building this. A lot was figured out on the fly, so engineers will likely spot questionable decisions in the codebase. I'd genuinely appreciate that feedback.\u003cp\u003eQuestions\u003cp\u003e- Currently, the circuit where the user connects is arbitrarily decided by the demo user. In a real system with thousands of circuits, it'd be very difficult to properly assess which circuit the customer might connect to. When adding a new customer to a service, how does the operator decide, based on customer's location, which circuit to provide the service to ?\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47335431\"\u003ehttps://news.ycombinator.com/item?id=47335431\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 31\u003c/p\u003e\n\u003cp\u003e# Comments: 4\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 13:38:17 +0000"
         },
         {
-          "title": "Debian decides not to decide on AI-generated contributions",
-          "link": "https://lwn.net/SubscriberLink/1061544/125f911834966dd0/",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://lwn.net/SubscriberLink/1061544/125f911834966dd0/\"\u003ehttps://lwn.net/SubscriberLink/1061544/125f911834966dd0/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47324087\"\u003ehttps://news.ycombinator.com/item?id=47324087\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 343\u003c/p\u003e\n\u003cp\u003e# Comments: 260\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 14:53:13 +0000"
+          "title": "Entities enabling scientific fraud at scale (2025)",
+          "link": "https://doi.org/10.1073/pnas.2420092122",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://doi.org/10.1073/pnas.2420092122\"\u003ehttps://doi.org/10.1073/pnas.2420092122\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47335349\"\u003ehttps://news.ycombinator.com/item?id=47335349\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 213\u003c/p\u003e\n\u003cp\u003e# Comments: 133\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 13:32:12 +0000"
         },
         {
-          "title": "Tony Hoare has died",
-          "link": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html\"\u003ehttps://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47324054\"\u003ehttps://news.ycombinator.com/item?id=47324054\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 1840\u003c/p\u003e\n\u003cp\u003e# Comments: 239\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 14:50:16 +0000"
+          "title": "Lego's 0.002mm specification and its implications for manufacturing (2025)",
+          "link": "https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/\"\u003ehttps://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47335237\"\u003ehttps://news.ycombinator.com/item?id=47335237\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 304\u003c/p\u003e\n\u003cp\u003e# Comments: 248\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 13:22:39 +0000"
         },
         {
-          "title": "Meta acquires Moltbook",
-          "link": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
-          "description": "\n\u003cp\u003e\u003ca href=\"https://web.archive.org/web/20260310154640/https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network\" rel=\"nofollow\"\u003ehttps://web.archive.org/web/20260310154640/https://www.axios...\u003c/a\u003e, \u003ca href=\"https://archive.ph/igqsh\" rel=\"nofollow\"\u003ehttps://archive.ph/igqsh\u003c/a\u003e\u003cp\u003e\u003ca href=\"https://www.reuters.com/business/meta-acquires-ai-agent-social-network-moltbook-2026-03-10/\" rel=\"nofollow\"\u003ehttps://www.reuters.com/business/meta-acquires-ai-agent-soci...\u003c/a\u003e\u003cp\u003e\u003ca href=\"https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/\" rel=\"nofollow\"\u003ehttps://techcrunch.com/2026/03/10/meta-acquired-moltbook-the...\u003c/a\u003e\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47323900\"\u003ehttps://news.ycombinator.com/item?id=47323900\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 512\u003c/p\u003e\n\u003cp\u003e# Comments: 349\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 14:38:06 +0000"
+          "title": "Swiss e-voting pilot can't count 2,048 ballots after decryption failure",
+          "link": "https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/\"\u003ehttps://www.theregister.com/2026/03/11/swiss_evote_usb_snafu/\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47334982\"\u003ehttps://news.ycombinator.com/item?id=47334982\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 86\u003c/p\u003e\n\u003cp\u003e# Comments: 187\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 12:57:41 +0000"
         },
         {
-          "title": "Levels of Agentic Engineering",
-          "link": "https://www.bassimeledath.com/blog/levels-of-agentic-engineering",
-          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://www.bassimeledath.com/blog/levels-of-agentic-engineering\"\u003ehttps://www.bassimeledath.com/blog/levels-of-agentic-engineering\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47320614\"\u003ehttps://news.ycombinator.com/item?id=47320614\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 214\u003c/p\u003e\n\u003cp\u003e# Comments: 95\u003c/p\u003e\n",
-          "date": "Tue, 10 Mar 2026 08:48:40 +0000"
+          "title": "BitNet: 100B Param 1-Bit model for local CPUs",
+          "link": "https://github.com/microsoft/BitNet",
+          "description": "\n\u003cp\u003eArticle URL: \u003ca href=\"https://github.com/microsoft/BitNet\"\u003ehttps://github.com/microsoft/BitNet\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eComments URL: \u003ca href=\"https://news.ycombinator.com/item?id=47334694\"\u003ehttps://news.ycombinator.com/item?id=47334694\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003ePoints: 252\u003c/p\u003e\n\u003cp\u003e# Comments: 120\u003c/p\u003e\n",
+          "date": "Wed, 11 Mar 2026 12:27:15 +0000"
         }
       ],
-      "last_update": "2026-03-11T13:38:14+01:00",
+      "last_update": "2026-03-11T20:53:08+01:00",
       "status": "ok"
     }
   }
