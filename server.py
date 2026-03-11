@@ -12,7 +12,7 @@ import time
 from datetime import datetime, timedelta
 from fetcher import update_cache, FEEDS, CACHE_FILE
 
-PORT = 7006
+PORT = 7007
 UPDATE_INTERVAL = 3600  # 1 hour in seconds
 
 
