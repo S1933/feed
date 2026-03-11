@@ -8,51 +8,110 @@ class FeedReader {
         this.init();
     }
 
-    // === LOCAL STORAGE ===
+    // === DATABASE API ===
 
-    loadReadArticles() {
+    async loadReadArticles() {
         try {
-            const data = localStorage.getItem('readArticles');
-            return data ? JSON.parse(data) : {};
+            const res = await fetch('/api/read');
+            const data = await res.json();
+            return data.read_articles || {};
         } catch (e) {
+            console.error('Error loading read articles:', e);
             return {};
         }
     }
 
-    saveReadArticles() {
-        localStorage.setItem('readArticles', JSON.stringify(this.readArticles));
+    async saveReadArticle(articleId) {
+        try {
+            const response = await fetch('/api/read', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ article_id: articleId })
+            });
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP ${response.status}: ${errorText}`);
+            }
+        } catch (e) {
+            console.error('Error saving read article:', e);
+            throw e;
+        }
     }
 
-    loadFavoriteArticles() {
+    async loadFavoriteArticles() {
         try {
-            const data = localStorage.getItem('favoriteArticles');
-            return data ? JSON.parse(data) : {};
+            const res = await fetch('/api/favorites');
+            const data = await res.json();
+            return data.favorites || {};
         } catch (e) {
+            console.error('Error loading favorites:', e);
             return {};
         }
     }
 
-    saveFavoriteArticles() {
-        localStorage.setItem('favoriteArticles', JSON.stringify(this.favoriteArticles));
+    async markAsRead(articleId) {
+        try {
+            await this.saveReadArticle(articleId);
+            this.readArticles[articleId] = new Date().toISOString();
+        } catch (e) {
+            console.error('Failed to mark article as read:', e);
+        }
     }
 
-    markAsRead(articleId) {
-        this.readArticles[articleId] = Date.now();
-        this.saveReadArticles();
+    async markAllAsRead() {
+        let articles = this.allArticles;
+
+        if (this.currentFilter === 'favorites') {
+            articles = articles.filter(a => this.isFavorite(this.getArticleId(a)));
+        } else if (this.currentFilter !== 'all') {
+            articles = articles.filter(a => a.feedUrl === this.currentFilter);
+        }
+
+        for (const article of articles) {
+            const articleId = this.getArticleId(article);
+            if (!this.readArticles[articleId]) {
+                try {
+                    await this.saveReadArticle(articleId);
+                    this.readArticles[articleId] = new Date().toISOString();
+                } catch (e) {
+                    console.error(`Failed to mark article ${articleId} as read:`, e);
+                }
+            }
+        }
+
+        // Re-render to hide read articles
+        this.renderAllArticles(this.currentFilter);
     }
 
     isRead(articleId) {
         return !!this.readArticles[articleId];
     }
 
-    toggleFavorite(articleId) {
-        if (this.favoriteArticles[articleId]) {
-            delete this.favoriteArticles[articleId];
-        } else {
-            this.favoriteArticles[articleId] = Date.now();
+    async toggleFavorite(articleId) {
+        try {
+            const res = await fetch('/api/favorites', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ article_id: articleId })
+            });
+            if (!res.ok) {
+                const errorText = await res.text();
+                throw new Error(`HTTP ${res.status}: ${errorText}`);
+            }
+            const data = await res.json();
+
+            // Only update local state after confirming server success
+            if (data.is_favorite) {
+                this.favoriteArticles[articleId] = new Date().toISOString();
+            } else {
+                delete this.favoriteArticles[articleId];
+            }
+
+            return data.is_favorite;
+        } catch (e) {
+            console.error('Error toggling favorite:', e);
+            return this.isFavorite(articleId);
         }
-        this.saveFavoriteArticles();
-        return this.isFavorite(articleId);
     }
 
     isFavorite(articleId) {
@@ -64,6 +123,8 @@ class FeedReader {
     async init() {
         await this.loadFeeds();
         await this.loadCache();
+        this.readArticles = await this.loadReadArticles();
+        this.favoriteArticles = await this.loadFavoriteArticles();
         this.mergeAllArticles();
         this.renderFeedList();
         this.renderAllArticles();
@@ -161,25 +222,24 @@ class FeedReader {
             articles = articles.filter(a => a.feedUrl === filter);
         }
 
-        if (articles.length === 0) {
-            container.innerHTML = filter === 'favorites'
-                ? '<p class="empty">Aucun favori. Cliquez sur ⭐ pour en ajouter !</p>'
-                : '<p class="empty">Aucun article</p>';
+        // Filter out read articles
+        const unreadArticles = articles.filter(a => !this.isRead(this.getArticleId(a)));
+
+        if (unreadArticles.length === 0) {
+            container.innerHTML = `
+                <p class="empty">Aucun article non lu 🎉</p>
+            `;
             return;
         }
 
-        const lastUpdate = this.cache?.last_fetch
-            ? this.formatDate(this.cache.last_fetch)
-            : 'inconnu';
-
-        const unreadCount = articles.filter(a => !this.isRead(this.getArticleId(a))).length;
-
         container.innerHTML = `
-            <div class="status-bar">
-                <span>${unreadCount}/${articles.length} non lus</span>
-                <span class="cache-badge">🕐 Mis à jour ${lastUpdate}</span>
+            ${unreadArticles.map(a => this.createArticleHTML(a)).join('')}
+            <div class="mark-all-read-container">
+                <button class="mark-all-read-btn" title="Tout marquer comme lu">
+                    <span class="btn-text-full">✓ Tout marquer comme lu</span>
+                    <span class="btn-text-short">✓ Tout lu</span>
+                </button>
             </div>
-            ${articles.map(a => this.createArticleHTML(a)).join('')}
         `;
     }
 
@@ -225,17 +285,14 @@ class FeedReader {
         });
 
         // Mark as read on click
-        document.getElementById('articles').addEventListener('click', (e) => {
+        document.getElementById('articles').addEventListener('click', async (e) => {
             const link = e.target.closest('a');
             if (link) {
                 const articleId = link.dataset.id;
                 if (articleId) {
-                    this.markAsRead(articleId);
-                    const article = link.closest('.article');
-                    if (article) {
-                        article.classList.add('read');
-                        this.updateUnreadCount();
-                    }
+                    await this.markAsRead(articleId);
+                    // Re-render to hide the read article
+                    setTimeout(() => this.renderAllArticles(this.currentFilter), 100);
                 }
             }
 
@@ -245,12 +302,99 @@ class FeedReader {
                 e.preventDefault();
                 e.stopPropagation();
                 const articleId = favBtn.dataset.id;
-                const isNowFav = this.toggleFavorite(articleId);
+                const isNowFav = await this.toggleFavorite(articleId);
                 favBtn.innerHTML = isNowFav ? '⭐' : '☆';
                 favBtn.classList.toggle('active', isNowFav);
                 this.renderFeedList(); // Update fav count
             }
+
+            // Mark all as read
+            const markAllBtn = e.target.closest('.mark-all-read-btn');
+            if (markAllBtn) {
+                e.preventDefault();
+                e.stopPropagation();
+                await this.markAllAsRead();
+            }
         });
+
+        // Refresh button
+        const refreshBtn = document.getElementById('refresh-btn');
+        if (refreshBtn) {
+            refreshBtn.addEventListener('click', () => this.refreshFeeds());
+        }
+    }
+
+    async refreshFeeds() {
+        const refreshBtn = document.getElementById('refresh-btn');
+
+        try {
+            // Add spinning animation
+            refreshBtn.classList.add('spinning');
+            refreshBtn.disabled = true;
+
+            // Capture current last_fetch before triggering refresh
+            await this.loadCache();
+            const preRefreshLastFetch = this.cache?.last_fetch;
+
+            // Call refresh API
+            const res = await fetch('/api/refresh', { method: 'POST' });
+            const data = await res.json();
+
+            if (data.success) {
+                // Wait a bit for the server to start fetching, then poll for updates
+                setTimeout(async () => {
+                    await this.pollForUpdates(preRefreshLastFetch);
+                }, 2000);
+            } else {
+                throw new Error(data.message || 'Refresh failed');
+            }
+        } catch (err) {
+            console.error('Error refreshing feeds:', err);
+            refreshBtn.classList.remove('spinning');
+            refreshBtn.disabled = false;
+            alert('Erreur lors du rafraîchissement des flux');
+        }
+    }
+
+    async pollForUpdates(preRefreshLastFetch) {
+        const refreshBtn = document.getElementById('refresh-btn');
+        let attempts = 0;
+        const maxAttempts = 30; // Max 30 attempts (30 seconds)
+
+        const checkInterval = setInterval(async () => {
+            attempts++;
+
+            try {
+                // Reload cache from server
+                await this.loadCache();
+
+                // Check if last_fetch has changed from the pre-refresh value
+                if (this.cache?.last_fetch && this.cache.last_fetch !== preRefreshLastFetch) {
+                    // Cache was updated!
+                    clearInterval(checkInterval);
+                    this.mergeAllArticles();
+                    this.renderFeedList();
+                    this.renderAllArticles(this.currentFilter);
+                    refreshBtn.classList.remove('spinning');
+                    refreshBtn.disabled = false;
+                    return;
+                }
+
+                if (attempts >= maxAttempts) {
+                    clearInterval(checkInterval);
+                    refreshBtn.classList.remove('spinning');
+                    refreshBtn.disabled = false;
+                    console.log('Refresh timeout - server still processing');
+                }
+            } catch (err) {
+                console.error('Error checking for updates:', err);
+                if (attempts >= maxAttempts) {
+                    clearInterval(checkInterval);
+                    refreshBtn.classList.remove('spinning');
+                    refreshBtn.disabled = false;
+                }
+            }
+        }, 1000);
     }
 
     updateUnreadCount() {
